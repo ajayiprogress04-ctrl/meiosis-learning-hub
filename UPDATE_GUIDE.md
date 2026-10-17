@@ -34,3 +34,15 @@ The build uses VERCEL_PROJECT_PRODUCTION_URL when available. Otherwise set SITE_
 Short-first display: User Guide and Course & sources now show collapsed topic headings. Developer details and objective-organisation notes also open on demand. Educational content remains available in full.
 
 Glossary display follows the reference Hub: plain meaning and learning relevance first. Mechanism, naming explanation where available, memory aid and related terms open separately. Glossary browsing shows term names without every definition at once; alphabet browsing is collapsible. Back to Lesson retains the underlying lesson and reading position. Latest: 40 automated checks and build pass.
+
+Readability revision: near-black Light-mode text; white Dark/Colour text; brighter secondary text; deeper coloured panels; clearer term links and control labels. Build validation passes. Visual assessment still requires your deployed browser.
+
+Landing simplification: removed the Continue your learning panel, its progress bar and Continue learning button. Kept a standalone Quick guide button. Other progress controls remain available in lessons and navigation.
+
+Objective/lesson pages now use one objective-navigation dropdown instead of the All objectives / Objective 1–8 button row. It shows the current objective and groups choices by class. All objectives returns to the landing page. All 41 automated checks and build pass.
+
+Removed the right-hand lesson rail (Your Progress, Mark complete, Bookmark lesson, In This Objective and duplicate tools). Lessons now use one reading column. Existing saved learning data remains intact. Objective dropdown and previous/next lesson navigation remain available.
+
+Latest fixes: diagram 1 markers use individually mapped relative coordinates. Other diagrams use numbered keys below the visual instead of arbitrary overlays. From a diagram term, Back returns to the diagram and restores its scroll and focused label; browser Back follows the same path. Removed the Original slide wording & source disclosure from lessons; all source material remains under Original Slides. 42 automated checks and build pass. Rendering on devices still requires browser verification.
+
+Objective flow: selecting any objective now opens its first lesson immediately, including old objective links. Lessons appear one at a time with their position within that objective. Next lesson continues within it; Next objective moves to the next objective after its final lesson. The intermediate lesson-card listing no longer appears. Objective goal remains available in a compact disclosure. 43 automated checks and build pass.
