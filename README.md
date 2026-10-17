@@ -115,3 +115,7 @@ The `build` command generates `dist/`. The app uses hash-based navigation, so le
 - [NHGRI: Talking Glossary of Genetic Terms](https://www.genome.gov/genetics-glossary)
 
 The supplied PowerPoints are the lesson source of truth. Original institutional marks remain inside those source documents and their slide previews. This project does not imply institutional hosting or endorsement.
+
+## Latest learning improvements
+
+See UPDATE_GUIDE.md for updating the existing GitHub/Vercel app. Quick revision keeps complete lesson text one tap away. Selected-text lookup opens an exact glossary match or searches the glossary. Previous term retraces related explanations; Back to Lesson returns to the underlying lesson. Diagram explanations and help use existing educational content. Copy lesson link does not include saved notes or answers.
