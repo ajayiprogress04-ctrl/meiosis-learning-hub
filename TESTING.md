@@ -36,3 +36,7 @@ The final automated run reports **30 passing tests, zero failures**. This count 
 No real browser or mobile device was driven in this session. The DOM simulation does not validate CSS rendering, touch interaction, native browser dialog focus trapping, or the actual visual result at each screen size. These require the concise browser checklist in `README.md` before classroom sharing.
 
 No GitHub repository was created or updated. No Vercel project was created or deployed. No production URL is claimed. The complete source and deployment instructions are included for those steps.
+
+## Reference redesign checks
+
+35 automated checks pass after redesign. Both local font files and all themed background paths resolve. Browser visual QA remains unverified. After updating, compare light/dark/colour modes with your Appendicitis Hub; check objective navigation, mobile wrapping and Back to Lesson after scrolling.

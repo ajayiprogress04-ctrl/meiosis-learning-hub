@@ -52,4 +52,6 @@ test('actual app module boots and responds to navigation, overlays and learning 
  await t.test('previous term returns through related explanations without leaving the lesson',()=>{window.scrollY=194;action({'data-term':'gene'});action({'data-term':'locus'});assert.match(elements.get('explain-body').innerHTML,/Previous term/);action({'data-previous-term':''});assert.match(elements.get('explain-body').innerHTML,/>Gene<\/h2>/i);elements.get('close-x').emit('click');assert.equal(window.scrollY,194);});
  await t.test('help and selected text lookup preserve return context',()=>{window.scrollY=213;action({'data-guide':''});assert.match(elements.get('explain-body').innerHTML,/A simple way to learn/);elements.get('close-x').emit('click');window.getSelection=()=> 'locus';action({'data-lookup':''});assert.match(elements.get('explain-body').innerHTML,/>Locus<\/h2>/i);elements.get('close-x').emit('click');assert.equal(window.scrollY,213);});
 
+ await t.test('reference navigation exposes eight objectives and labels inferred goals',()=>{link('#/objective/o5');assert.match(elements.get('main').innerHTML,/Inferred learning objective/);assert.equal((elements.get('desktop-nav').innerHTML.match(/objective-side/g)||[]).length,8);assert.match(elements.get('main').innerHTML,/aria-label="Choose learning objective"/);});
+
 });

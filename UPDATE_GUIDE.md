@@ -1,6 +1,6 @@
 # Update your existing app
 
-This version adapts simple reading tools from your latest Appendicitis Hub: quick revision, expandable sections, selected-text glossary lookup, previous-term navigation, inline diagram explanations, help and copy lesson link. Full lesson is the default. Original source material is unchanged.
+This version applies the actual reference fonts, palette, compact panels, objective navigation and three appearance themes from your Appendicitis Hub. See DESIGN_ADAPTATION.md for the source mapping and verification limits. It also adapts simple reading tools from your latest Appendicitis Hub: quick revision, expandable sections, selected-text glossary lookup, previous-term navigation, inline diagram explanations, help and copy lesson link. Full lesson is the default. Original source material is unchanged.
 
 1. Download and extract the project ZIP.
 2. Open your existing Meiosis GitHub repository.
