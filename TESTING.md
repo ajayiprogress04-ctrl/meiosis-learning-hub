@@ -40,3 +40,7 @@ No GitHub repository was created or updated. No Vercel project was created or de
 ## Reference redesign checks
 
 35 automated checks pass after redesign. Both local font files and all themed background paths resolve. Browser visual QA remains unverified. After updating, compare light/dark/colour modes with your Appendicitis Hub; check objective navigation, mobile wrapping and Back to Lesson after scrolling.
+
+Latest: 36 automated checks pass, including desktop hamburger collapse/expand and preference persistence. Deployment build passes. Browser visual verification remains outstanding.
+
+Final consolidated package: 41 automated checks and build pass. Focused slide-preview tests cover zoom, fit width, next slide and restoring the original lesson DOM and scroll. Full-screen and social-platform previews remain unverified in a rendering browser.

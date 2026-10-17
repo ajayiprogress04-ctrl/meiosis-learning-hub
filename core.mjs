@@ -5,7 +5,7 @@ export const escapeRegExp = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'
 export function parseRoute(hash) {
   const [path, query=''] = String(hash || '#/home').replace(/^#\/?/,'').split('?');
   const bits=path.split('/').map(x=>{try{return decodeURIComponent(x)}catch{return ''}});
-  const allowed=['home','objective','lesson','glossary','slides','practice','notes','search','about'];
+  const allowed=['home','objective','lesson','glossary','slides','practice','notes','search','about','guide','developer'];
   const params=new URLSearchParams(query);
   return {view:allowed.includes(bits[0])?bits[0]:'not-found',id:bits[1]||'',page:bits[2]||'',q:params.get('q')||'',overlay:params.get('explain')||''};
 }
@@ -15,13 +15,13 @@ export function routeHash(route) {
   return '#/'+p+(q.size?'?'+q:'');
 }
 export const routeKey = route => routeHash({...route,overlay:''});
-export function blankState(){return {version:VERSION,theme:'light',readingMode:'full',fontSize:'normal',complete:[],answers:{},notes:{},bookmarks:[],lastLesson:null,contexts:{}};}
+export function blankState(){return {version:VERSION,theme:'light',readingMode:'full',sidebarCollapsed:false,fontSize:'normal',complete:[],answers:{},notes:{},bookmarks:[],lastLesson:null,contexts:{}};}
 export function cleanState(value) {
   const base=blankState();if(!value||value.version!==VERSION)return base;
   const textMap=v=>v&&typeof v==='object'&&!Array.isArray(v)?Object.fromEntries(Object.entries(v).filter(([k,t])=>typeof t==='string'&&k.length<100).map(([k,t])=>[k,t.slice(0,20000)])):{};
   const cleanContext=c=>c&&typeof c==='object'&&typeof c.route?.view==='string'?{route:parseRoute(routeHash({view:c.route.view,id:typeof c.route.id==='string'?c.route.id:'',page:typeof c.route.page==='string'?c.route.page:'',q:typeof c.route.q==='string'?c.route.q:''})),scrollY:Number.isFinite(c.scrollY)?Math.max(0,c.scrollY):0,focusId:typeof c.focusId==='string'?c.focusId:'',openDetails:Array.isArray(c.openDetails)?c.openDetails.filter(x=>typeof x==='string'):[],savedAt:Number.isFinite(c.savedAt)?c.savedAt:0}:null;
   const contexts=value.contexts&&typeof value.contexts==='object'?Object.fromEntries(Object.entries(value.contexts).map(([k,v])=>[k,cleanContext(v)]).filter(([,v])=>v)):{};
-  return {...base,readingMode:value.readingMode==='quick'?'quick':'full',theme:['light','dark','color'].includes(value.theme)?value.theme:'light',fontSize:value.fontSize==='large'?'large':'normal',complete:Array.isArray(value.complete)?[...new Set(value.complete.filter(x=>typeof x==='string'))]:[],bookmarks:Array.isArray(value.bookmarks)?value.bookmarks.filter(x=>typeof x==='string'):[],answers:value.answers&&typeof value.answers==='object'?Object.fromEntries(Object.entries(value.answers).filter(([k,v])=>Number.isInteger(v)&&v>=0&&v<4)):{},notes:textMap(value.notes),lastLesson:value.lastLesson?.route?.view==='lesson'?cleanContext(value.lastLesson):null,contexts};
+  return {...base,sidebarCollapsed:value.sidebarCollapsed===true,readingMode:value.readingMode==='quick'?'quick':'full',theme:['light','dark','color'].includes(value.theme)?value.theme:'light',fontSize:value.fontSize==='large'?'large':'normal',complete:Array.isArray(value.complete)?[...new Set(value.complete.filter(x=>typeof x==='string'))]:[],bookmarks:Array.isArray(value.bookmarks)?value.bookmarks.filter(x=>typeof x==='string'):[],answers:value.answers&&typeof value.answers==='object'?Object.fromEntries(Object.entries(value.answers).filter(([k,v])=>Number.isInteger(v)&&v>=0&&v<4)):{},notes:textMap(value.notes),lastLesson:value.lastLesson?.route?.view==='lesson'?cleanContext(value.lastLesson):null,contexts};
 }
 export function createStorage(storage,key='meiosis-learning-v1') {
   let memory=blankState(),persistent=true;
