@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#163b6c"><meta name="description" content="An objective-based BIO 1107 learning companion for meiosis and sexual life cycles. Explore lessons, original diagrams and a simple interactive glossary.">
+  <title>Meiosis Learning Hub · BIO 1107</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to learning content</a>
+  <aside class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#/home"><span class="brand-icon" aria-hidden="true">m<span>₂</span></span><span>Meiosis<strong>Learning Hub</strong></span></a>
+    <div class="course-label">BIO 1107 <span>Principles of Biology 1</span></div>
+    <nav id="desktop-nav"></nav>
+    <div class="sidebar-bottom"><div class="small-label">YOUR LEARNING</div><div id="side-progress"></div><p>Instructor: Mrs. Oyawale</p><a href="#/about">Guide &amp; sources ↗</a></div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-only" id="menu-toggle" aria-label="Open navigation" aria-haspopup="dialog">☰</button>
+      <button class="back-button" id="global-back" type="button">← <span>Back</span></button>
+      <form class="top-search" id="search-form" role="search"><label class="sr-only" for="global-search">Search lessons and glossary</label><span aria-hidden="true">⌕</span><input id="global-search" type="search" placeholder="Search a concept, term or lesson…" autocomplete="off"><kbd>/</kbd></form>
+      <label class="theme-control"><span class="sr-only">Appearance</span><select id="theme"><option value="light">Light</option><option value="dark">Dark</option><option value="color">Colour</option></select></label>
+      <button class="icon-button" id="text-size" type="button" aria-label="Use larger lesson text" aria-pressed="false">Aa</button>
+    </header>
+    <div id="storage-warning" class="storage-warning" role="status" hidden>Browser storage is unavailable. Your work will stay in this tab, but may be lost when it closes.</div>
+    <main id="main" tabindex="-1"><div class="loading"><span class="loading-dot"></span><h1>Opening your lessons</h1><p>Loading the two classes and their glossary…</p></div></main>
+    <footer class="footer"><span>BIO 1107 · Meiosis &amp; Sexual Life Cycles</span><a href="#/about">Content &amp; sources</a></footer>
+  </div>
+  <dialog id="explainer" aria-labelledby="explain-title"><div class="dialog-header"><button id="close-explainer" class="button primary">← Back to Lesson</button><button class="icon-button" id="close-x" aria-label="Close explanation">×</button></div><div id="explain-body"></div></dialog>
+  <dialog id="mobile-menu" aria-label="Navigation"><div class="menu-header"><strong>Meiosis Learning Hub</strong><button id="menu-close" class="icon-button" aria-label="Close navigation">×</button></div><nav id="mobile-nav"></nav></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><section class="noscript"><h1>JavaScript is needed for interactive lessons</h1><p>You can still download the <a href="sources/class1.pptx">Class 1 PowerPoint</a> and <a href="sources/class2.pptx">Class 2 PowerPoint</a>.</p></section></noscript>
+</body>
+</html>

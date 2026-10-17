@@ -1,0 +1,10 @@
+import './validate.mjs';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+if(process.exitCode)process.exit(process.exitCode);
+const out=path.join(root,'dist');
+await fs.rm(out,{recursive:true,force:true});await fs.mkdir(out,{recursive:true});
+for(const name of ['index.html','app.js','core.mjs','styles.css','assets','content','sources'])await fs.cp(path.join(root,name),path.join(out,name),{recursive:true});
+console.log('Static deployment files created in dist/. No dependencies or API keys required.');

@@ -1,0 +1,9 @@
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.webp':'image/webp','.svg':'image/svg+xml','.woff':'font/woff','.woff2':'font/woff2','.pptx':'application/vnd.openxmlformats-officedocument.presentationml.presentation'};
+export function resolveRequest(url){let decoded;try{decoded=decodeURIComponent(new URL(url,'http://localhost').pathname);}catch{return null;}if(decoded.includes('\0')||decoded.includes('\\')||decoded.split('/').some(p=>p.startsWith('.')))return null;const file=path.resolve(root,'.'+(decoded==='/'?'/index.html':decoded));return file.startsWith(root+path.sep)?{file,type:mime[path.extname(file)]||'application/octet-stream'}:null;}
+export async function handler(req,res){if(!['GET','HEAD'].includes(req.method)){res.writeHead(405,{'Allow':'GET, HEAD'});res.end('Method not allowed');return;}const target=resolveRequest(req.url);if(!target){res.writeHead(403);res.end('Forbidden');return;}try{const bytes=await fs.readFile(target.file);res.writeHead(200,{'Content-Type':target.type,'X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(req.method==='HEAD'?undefined:bytes);}catch{res.writeHead(404,{'Content-Type':'text/plain; charset=utf-8'});res.end('File not found');}}
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){const port=Number(process.env.PORT)||3000;const server=http.createServer(handler);server.on('error',e=>{console.error('Could not start the local server:',e.message);process.exitCode=1;});server.listen(port,'127.0.0.1',()=>console.log(`Meiosis Learning Hub: http://localhost:${port}\nPress Ctrl+C to stop.`));}

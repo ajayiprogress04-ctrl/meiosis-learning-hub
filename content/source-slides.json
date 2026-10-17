@@ -1,0 +1,578 @@
+[
+  {
+    "id": "class1",
+    "title": "Class 1",
+    "filename": "Meiosis and sexual life cycle - Class 1.pptx",
+    "download": "sources/class1.pptx",
+    "slides": [
+      {
+        "id": "class1-s01",
+        "number": 1,
+        "title": "Biology Lab 1107: Meiosis and sexual life cycle",
+        "text": [
+          "Biology Lab 1107: Meiosis and sexual life cycle",
+          "BIO 1107 | Principles of Biology 1",
+          "Instructor: Mrs. Oyawale "
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-01.webp"
+      },
+      {
+        "id": "class1-s02",
+        "number": 2,
+        "title": "Meiosis and sexual life cycle: ",
+        "text": [
+          "Meiosis and sexual life cycle: ",
+          "Class 1"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-02.webp"
+      },
+      {
+        "id": "class1-s03",
+        "number": 3,
+        "title": "Meiosis and fertilization together maintain chromosome-set balance",
+        "text": [
+          "Meiosis and fertilization together maintain chromosome-set balance",
+          "Meiosis and fertilization together maintain chromosome-set balance.",
+          "Meiosis halves the chromosome sets in gametes. Fertilization brings two sets together again, maintaining chromosome number while allowing genetic variety."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class1-03-1.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 1000
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-03.webp"
+      },
+      {
+        "id": "class1-s04",
+        "number": 4,
+        "title": "Chromosomes carry genes at defined positions called loci",
+        "text": [
+          "Chromosomes carry genes at defined positions called loci",
+          "Chromosomes carry genes at defined positions called loci.",
+          "Genes are DNA segments carried on chromosomes. Their location is called a locus, and gametes pass this genetic information to offspring."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class1-04-1.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 1000
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-04.webp"
+      },
+      {
+        "id": "class1-s05",
+        "number": 5,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q1: What term is given to the specific, defined position that a gene occupies on a chromosome?",
+          "Locus",
+          "Centriole",
+          "Nucleolus",
+          "Ribosome"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-05.webp"
+      },
+      {
+        "id": "class1-s06",
+        "number": 6,
+        "title": "Sexual reproduction recombines genetic information from gametes",
+        "text": [
+          "Sexual reproduction recombines genetic information from gametes",
+          "Sexual reproduction recombines genetic information from gametes.",
+          "Asexual reproduction usually produces clones from one parent. Sexual reproduction combines gametes, producing new combinations of inherited genes."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class1-06-1.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 1000
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-06.webp"
+      },
+      {
+        "id": "class1-s07",
+        "number": 7,
+        "title": "Homologs are parental counterparts; sisters are replication copies",
+        "text": [
+          "Homologs are parental counterparts; sisters are replication copies",
+          "Homologs are parental counterparts; sisters are replication copies.",
+          "Homologs come from different parents and carry corresponding gene positions. Sister chromatids are the replicated copies of one chromosome."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class1-07-1.webp",
+            "alt": "",
+            "width": 1688,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-07.webp"
+      },
+      {
+        "id": "class1-s08",
+        "number": 8,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q2: Where do the two members of a pair of homologous chromosomes typically originate from in a diploid organism?",
+          "Both chromosomes come from the mother during gamete formation",
+          "One chromosome comes from the mother and the other from the father",
+          "Both chromosomes are synthesized via independent DNA replication in the zygote",
+          "One chromosome is inherited entirely from asexual budding while the other is lost"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-08.webp"
+      },
+      {
+        "id": "class1-s09",
+        "number": 9,
+        "title": "Diploid and haploid describe chromosome sets, not DNA quantity",
+        "text": [
+          "Diploid and haploid describe chromosome sets, not DNA quantity",
+          "Diploid and haploid describe chromosome sets, not DNA quantity.",
+          "Typical human body cells have 46 chromosomes in two sets. Gametes have 23 in one set, and DNA replication does not change set number."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class1-09-1.webp",
+            "alt": "",
+            "width": 1688,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-09.webp"
+      },
+      {
+        "id": "class1-s10",
+        "number": 10,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q3: A standard human sperm cell contains (n = 23) chromosomes. How are these 23 chromosomes specifically categorized?",
+          "22 autosomes and 1 sex chromosome",
+          "23 autosomes and 0 sex chromosomes",
+          "21 autosomes and 2 sex chromosomes",
+          "44 autosomes and 2 sex chromosomes"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-10.webp"
+      },
+      {
+        "id": "class1-s11",
+        "number": 11,
+        "title": "Meiosis reduces sets, fertilization restores them, and mitosis supports growth",
+        "text": [
+          "Meiosis reduces sets, fertilization restores them, and mitosis supports growth",
+          "Meiosis reduces sets, fertilization restores them, and mitosis supports growth.",
+          "The human cycle alternates diploid adults and haploid gametes. Fertilization restores diploidy, and mitosis supports growth without changing chromosome-set number."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class1-11-1.webp",
+            "alt": "",
+            "width": 1688,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-11.webp"
+      },
+      {
+        "id": "class1-s12",
+        "number": 12,
+        "title": "The growing stage differs across sexual life-cycle patterns",
+        "text": [
+          "The growing stage differs across sexual life-cycle patterns",
+          "The growing stage differs across sexual life-cycle patterns.",
+          "Sexual life cycles differ in which stages grow as multicellular organisms. Plants include haploid and diploid generations, while the animal example emphasizes diploid adults."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class1-12-1.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 1000
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-12.webp"
+      },
+      {
+        "id": "class1-s13",
+        "number": 13,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q4: In animals, what is the ploidy level of the multicellular adult stage, and what type of reproductive cells are produced directly by meiosis?",
+          "Haploid (n); spores",
+          "Diploid (2n); spores (n)",
+          "Diploid (2n); gametes (n)",
+          "Haploid (n); zygotes (2n)"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-13.webp"
+      },
+      {
+        "id": "class1-s14",
+        "number": 14,
+        "title": "One replication supports two successive meiotic divisions",
+        "text": [
+          "One replication supports two successive meiotic divisions",
+          "One replication supports two successive meiotic divisions.",
+          "Meiosis copies DNA once and divides twice. Homologs separate first, sisters separate second, producing four haploid cells in the general sequence."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class1-14-1.webp",
+            "alt": "",
+            "width": 1688,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-14.webp"
+      },
+      {
+        "id": "class1-s15",
+        "number": 15,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q5: How many rounds of DNA replication occur in support of the two successive divisions of meiosis?",
+          "Two rounds, to prepare for both divisions separately",
+          "Three rounds, matching the final number of cell stages",
+          "One round, which supports both Meiosis I and Meiosis II",
+          "Zero rounds, as meiosis only involves division without replication"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class1-15.webp"
+      }
+    ]
+  },
+  {
+    "id": "class2",
+    "title": "Class 2",
+    "filename": "Meiosis and sexual life cycle - Class 2.pptx",
+    "download": "sources/class2.pptx",
+    "slides": [
+      {
+        "id": "class2-s01",
+        "number": 1,
+        "title": "Biology Lab 1107: Meiosis and sexual life cycle",
+        "text": [
+          "Biology Lab 1107: Meiosis and sexual life cycle",
+          "BIO 1107 | Principles of Biology 1",
+          "Instructor: Mrs. Oyawale "
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-01.webp"
+      },
+      {
+        "id": "class2-s02",
+        "number": 2,
+        "title": "Meiosis and sexual life cycle: ",
+        "text": [
+          "Meiosis and sexual life cycle: ",
+          "Class 2"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-02.webp"
+      },
+      {
+        "id": "class2-s03",
+        "number": 3,
+        "title": "Meiosis I separates homologs while sisters remain joined",
+        "text": [
+          "Meiosis I separates homologs while sisters remain joined",
+          "Meiosis I separates homologs while sisters remain joined.",
+          "During meiosis I, homologs pair, line up and separate. Each resulting cell is haploid, but its chromosomes still contain joined sister chromatids."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class2-03-1.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 1000
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-03.webp"
+      },
+      {
+        "id": "class2-s04",
+        "number": 4,
+        "title": "The second division separates sisters without another DNA replication",
+        "text": [
+          "The second division separates sisters without another DNA replication",
+          "The second division separates sisters without another DNA replication.",
+          "Meiosis II separates the sister chromatids within each haploid cell. The general result is four haploid cells with unduplicated chromosomes."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class2-04-1.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 1000
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-04.webp"
+      },
+      {
+        "id": "class2-s05",
+        "number": 5,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q1: Does DNA replication occur immediately before Meiosis II begins?",
+          "Yes, complete DNA replication occurs to ensure all chromosomes are doubled",
+          "No, Meiosis II takes place without another round of DNA replication",
+          "Yes, but only for sex chromosomes",
+          "Only partial replication happens to reduce chromosome number"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-05.webp"
+      },
+      {
+        "id": "class2-s06",
+        "number": 6,
+        "title": "Crossing over rearranges alleles within chromosomes",
+        "text": [
+          "Crossing over rearranges alleles within chromosomes",
+          "Crossing over rearranges alleles within chromosomes.",
+          "Crossing over exchanges corresponding DNA between nonsister chromatids in prophase I. The recombinant products carry new combinations of maternal and paternal DNA."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class2-06-1.webp",
+            "alt": "",
+            "width": 1688,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-06.webp"
+      },
+      {
+        "id": "class2-s07",
+        "number": 7,
+        "title": "Mitosis preserves set number, while meiosis reduces it",
+        "text": [
+          "Mitosis preserves set number, while meiosis reduces it",
+          "Mitosis preserves set number, while meiosis reduces it.",
+          "Mitosis produces two generally matching cells while preserving chromosome sets. Meiosis uses two divisions to produce four haploid products with genetic variation."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class2-07-1.webp",
+            "alt": "",
+            "width": 1688,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-07.webp"
+      },
+      {
+        "id": "class2-s08",
+        "number": 8,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q2: What happens to the chromosome set number in a cell undergoing mitosis compared to one undergoing meiosis?",
+          "Mitosis halves the chromosome set number, while meiosis preserves it",
+          "Mitosis preserves the chromosome set number (diploid to diploid), while meiosis halves it (diploid to haploid)",
+          "Both mitosis and meiosis halve the chromosome set number",
+          "Both mitosis and meiosis preserve the chromosome set number."
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-08.webp"
+      },
+      {
+        "id": "class2-s09",
+        "number": 9,
+        "title": "Independent assortment generates many combinations of whole chromosomes",
+        "text": [
+          "Independent assortment generates many combinations of whole chromosomes",
+          "Independent assortment generates many combinations of whole chromosomes.",
+          "Each homologous pair orients independently. Two pairs allow four possible combinations, and 23 human pairs allow about 8.4 million before counting crossing over."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class2-09-1.webp",
+            "alt": "",
+            "width": 1688,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-09.webp"
+      },
+      {
+        "id": "class2-s10",
+        "number": 10,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q3: What primary outcome is generated by the independent assortment of whole chromosomes during meiosis?",
+          "The exact replication of maternal chromosomes only",
+          "The permanent fusion of homologous chromosome pairs",
+          "A large variety of distinct whole-chromosome combinations in gametes",
+          "A reduction in the total number of chromosomes in somatic cells"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-10.webp"
+      },
+      {
+        "id": "class2-s11",
+        "number": 11,
+        "title": "Random fertilization multiplies the assortment possibilities of two gametes",
+        "text": [
+          "Random fertilization multiplies the assortment possibilities of two gametes",
+          "Random fertilization multiplies the assortment possibilities of two gametes.",
+          "Combining sperm and egg possibilities gives about 70 trillion possible human zygote combinations. That estimate still excludes the extra variation from crossing over."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class2-11-1.webp",
+            "alt": "",
+            "width": 1998,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-11.webp"
+      },
+      {
+        "id": "class2-s12",
+        "number": 12,
+        "title": "New alleles and new combinations play different roles in variation",
+        "text": [
+          "New alleles and new combinations play different roles in variation",
+          "New alleles and new combinations play different roles in variation.",
+          "Mutation supplies new alleles, and sexual reproduction reshuffles them. The resulting heritable variation provides material on which natural selection can act."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class2-12-1.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 1000
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-12.webp"
+      },
+      {
+        "id": "class2-s13",
+        "number": 13,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q4: Why is heritable variation described as the \"material\" for natural selection?",
+          "Because natural selection requires phenotypic differences that can be passed down to offspring to favor certain variants",
+          "Because it prevents any future mutations from occurring in the population",
+          "Because it ensures every individual in the population is genetically identical",
+          "Because it completely replaces the need for sexual reproduction"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-13.webp"
+      },
+      {
+        "id": "class2-s14",
+        "number": 14,
+        "title": "Stable chromosome number and genetic variety can occur together",
+        "text": [
+          "Stable chromosome number and genetic variety can occur together",
+          "Stable chromosome number and genetic variety can occur together.",
+          "Meiosis and fertilization balance chromosome sets. Assortment, crossing over and random fertilization create variety, while mutation supplies new alleles."
+        ],
+        "pictures": [
+          {
+            "path": "assets/figures/class2-14-1.webp",
+            "alt": "",
+            "width": 1688,
+            "height": 1125
+          }
+        ],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-14.webp"
+      },
+      {
+        "id": "class2-s15",
+        "number": 15,
+        "title": "Thought Questions",
+        "text": [
+          "Thought Questions",
+          "Q5: What is the primary change in chromosome ploidy level that occurs during the process of meiosis?",
+          "From haploid (n) to diploid (2n)",
+          "From diploid (2n) to haploid (n)",
+          "From diploid (2n) to tetraploid (4n)",
+          "From haploid (n) to haploid (n)"
+        ],
+        "pictures": [],
+        "tables": [],
+        "notes": [],
+        "preview": "assets/slides/class2-15.webp"
+      }
+    ]
+  }
+]

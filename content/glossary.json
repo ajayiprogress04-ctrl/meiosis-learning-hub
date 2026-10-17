@@ -1,0 +1,938 @@
+[
+  {
+    "id": "dna",
+    "term": "DNA",
+    "aliases": [
+      "deoxyribonucleic acid"
+    ],
+    "simple": "The molecule that stores genetic information.",
+    "how": "Its sequence contains inherited instructions. Chromosomes package that DNA.",
+    "memory": "DNA is the information; chromosomes are its packages.",
+    "related": [
+      "gene",
+      "chromosome"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "chromosome",
+    "term": "Chromosome",
+    "aliases": [
+      "chromosomes"
+    ],
+    "simple": "A packaged DNA molecule with associated proteins.",
+    "how": "It carries many genes. After replication, one duplicated chromosome has two sister chromatids.",
+    "memory": "One package can have two joined copies.",
+    "related": [
+      "dna",
+      "gene",
+      "sister"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "gene",
+    "term": "Gene",
+    "aliases": [
+      "genes"
+    ],
+    "simple": "A segment of DNA with a biological role.",
+    "how": "Genes occupy positions on chromosomes and can be transmitted through gametes.",
+    "memory": "A gene is a stretch of DNA.",
+    "related": [
+      "dna",
+      "locus",
+      "allele"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "locus",
+    "term": "Locus",
+    "aliases": [
+      "loci"
+    ],
+    "simple": "A particular position on a chromosome or in a genome.",
+    "how": "The gene is the DNA segment. Its locus tells you where that segment is located.",
+    "memory": "Locus = location.",
+    "related": [
+      "gene",
+      "allele",
+      "homolog"
+    ],
+    "kind": "term",
+    "whyName": "Locus = location.",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "allele",
+    "term": "Allele",
+    "aliases": [
+      "alleles"
+    ],
+    "simple": "A version of a DNA sequence at a particular locus.",
+    "how": "Homologous chromosomes can have different versions at the same position, illustrated by A and a.",
+    "memory": "Same address, different version.",
+    "related": [
+      "locus",
+      "homolog",
+      "mutation"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "gamete",
+    "term": "Gamete",
+    "aliases": [
+      "gametes",
+      "sperm",
+      "egg",
+      "sex cells"
+    ],
+    "simple": "A reproductive cell that contributes one chromosome set at fertilization.",
+    "how": "In the human examples, sperm and egg each carry 23 chromosomes.",
+    "memory": "A gamete contributes one set.",
+    "related": [
+      "haploid",
+      "fertilization",
+      "zygote"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "homolog",
+    "term": "Homologous chromosomes",
+    "aliases": [
+      "homolog",
+      "homologs",
+      "homologous pair",
+      "homologous pairs"
+    ],
+    "simple": "Corresponding chromosomes inherited from different parents.",
+    "how": "They carry matching gene positions but can contain different alleles. They separate in meiosis I.",
+    "memory": "Homologs = parental counterparts.",
+    "related": [
+      "sister",
+      "allele",
+      "meiosis-i"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "sister",
+    "term": "Sister chromatids",
+    "aliases": [
+      "sister chromatid",
+      "sisters"
+    ],
+    "simple": "The two copies formed when one chromosome replicates.",
+    "how": "They stay joined through meiosis I and separate in meiosis II. Crossing over can later make their DNA differ.",
+    "memory": "Sisters begin as replication copies.",
+    "related": [
+      "replication",
+      "homolog",
+      "meiosis-ii"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "replication",
+    "term": "DNA replication",
+    "aliases": [
+      "replication",
+      "replicated"
+    ],
+    "simple": "Copying DNA before cell division.",
+    "how": "One round prepares chromosomes for both meiotic divisions. DNA quantity doubles while set number remains the same.",
+    "memory": "Copy once before dividing twice.",
+    "related": [
+      "dna",
+      "sister",
+      "ploidy"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "diploid",
+    "term": "Diploid",
+    "aliases": [
+      "diploidy",
+      "2n"
+    ],
+    "simple": "Having two complete chromosome sets.",
+    "how": "A typical human diploid body cell has 46 chromosomes. Copying DNA does not itself add another set.",
+    "memory": "Di = two sets.",
+    "related": [
+      "haploid",
+      "ploidy",
+      "replication"
+    ],
+    "kind": "term",
+    "whyName": "Di = two sets.",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "haploid",
+    "term": "Haploid",
+    "aliases": [
+      "haploidy"
+    ],
+    "simple": "Having one complete chromosome set.",
+    "how": "Human gametes have 23 chromosomes. Cells after meiosis I are haploid even though chromosomes remain duplicated.",
+    "memory": "Haploid = one set, written n.",
+    "related": [
+      "diploid",
+      "gamete",
+      "meiosis-i"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "ploidy",
+    "term": "Ploidy",
+    "aliases": [
+      "chromosome sets",
+      "chromosome set",
+      "set number"
+    ],
+    "simple": "The number of complete chromosome sets in a cell.",
+    "how": "It describes sets, not the amount of copied DNA. Diploid is 2n, haploid is n.",
+    "memory": "Count sets, not copied DNA.",
+    "related": [
+      "diploid",
+      "haploid",
+      "tetraploid"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "autosome",
+    "term": "Autosome",
+    "aliases": [
+      "autosomes"
+    ],
+    "simple": "A chromosome other than a sex chromosome.",
+    "how": "A human gamete has 22 autosomes and one sex chromosome.",
+    "memory": "22 + 1 = 23 in a human gamete.",
+    "related": [
+      "sex-chromosome",
+      "gamete"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "sex-chromosome",
+    "term": "Sex chromosome",
+    "aliases": [
+      "sex chromosomes"
+    ],
+    "simple": "A chromosome involved in the chromosomal sex system.",
+    "how": "The human gamete example contains one sex chromosome alongside 22 autosomes.",
+    "memory": "One of a human gamete’s 23.",
+    "related": [
+      "autosome",
+      "gamete"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "somatic",
+    "term": "Somatic cell",
+    "aliases": [
+      "somatic cells",
+      "body cells",
+      "body cell"
+    ],
+    "simple": "A body cell outside the reproductive germ-cell lineage.",
+    "how": "The slides contrast typical diploid human body cells with haploid gametes.",
+    "memory": "Somatic means body.",
+    "related": [
+      "diploid",
+      "gamete"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "zygote",
+    "term": "Zygote",
+    "aliases": [
+      "zygotes"
+    ],
+    "simple": "The cell formed by fusion of two gametes.",
+    "how": "Fertilization combines their chromosome contributions and restores diploidy in the human cycle.",
+    "memory": "A zygote is the joined starting cell.",
+    "related": [
+      "gamete",
+      "fertilization",
+      "diploid"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "fertilization",
+    "term": "Fertilization",
+    "aliases": [
+      "gamete fusion",
+      "random fertilization"
+    ],
+    "simple": "Fusion of gametes and their genetic contributions.",
+    "how": "One haploid contribution combines with another. Random pairing of possibilities adds genetic combinations.",
+    "memory": "n + n restores 2n.",
+    "related": [
+      "gamete",
+      "zygote",
+      "assortment"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "mitosis",
+    "term": "Mitosis",
+    "aliases": [],
+    "simple": "Cell division that generally preserves chromosome-set number.",
+    "how": "Sister chromatids separate, producing two generally matching daughter cells. The human cycle uses mitosis for growth.",
+    "memory": "Keep the starting set number.",
+    "related": [
+      "sister",
+      "meiosis",
+      "ploidy"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "meiosis",
+    "term": "Meiosis",
+    "aliases": [
+      "meiotic"
+    ],
+    "simple": "A division sequence that reduces two chromosome sets to one.",
+    "how": "After one DNA replication, homologs separate in division I and sisters separate in division II.",
+    "memory": "Homologs first, sisters second.",
+    "related": [
+      "meiosis-i",
+      "meiosis-ii",
+      "replication"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "meiosis-i",
+    "term": "Meiosis I",
+    "aliases": [
+      "division I"
+    ],
+    "simple": "The first meiotic division, which separates homologous chromosomes.",
+    "how": "Pairing and crossing over precede homolog separation. The products are haploid with duplicated chromosomes.",
+    "memory": "I separates the parental pair.",
+    "related": [
+      "homolog",
+      "prophase-i",
+      "meiosis-ii"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "meiosis-ii",
+    "term": "Meiosis II",
+    "aliases": [
+      "division II"
+    ],
+    "simple": "The second meiotic division, which separates sister chromatids.",
+    "how": "There is no second DNA replication beforehand. The general sequence ends with four haploid products.",
+    "memory": "II separates the copies.",
+    "related": [
+      "sister",
+      "replication",
+      "anaphase-ii"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "prophase-i",
+    "term": "Prophase I",
+    "aliases": [],
+    "simple": "The first stage of meiosis I, when homologs pair and crossing over occurs.",
+    "how": "Corresponding homologs come together, allowing exchange between nonsister chromatids.",
+    "memory": "Pair and exchange.",
+    "related": [
+      "synapsis",
+      "crossing-over",
+      "meiosis-i"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "metaphase-i",
+    "term": "Metaphase I",
+    "aliases": [],
+    "simple": "The stage when homologous pairs align at the cell equator.",
+    "how": "Each pair’s orientation is independent, setting up alternative parental chromosome combinations.",
+    "memory": "Pairs line up.",
+    "related": [
+      "assortment",
+      "homolog",
+      "anaphase-i"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "anaphase-i",
+    "term": "Anaphase I",
+    "aliases": [],
+    "simple": "The stage when homologous chromosomes move apart.",
+    "how": "Each chromosome retains its joined sister chromatids while its homolog moves toward the other side.",
+    "memory": "Homologs apart; sisters joined.",
+    "related": [
+      "homolog",
+      "sister",
+      "telophase-i"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "telophase-i",
+    "term": "Telophase I",
+    "aliases": [],
+    "simple": "The closing stage of the first meiotic division.",
+    "how": "The simplified sequence forms two cells, each with one chromosome set and duplicated chromosomes.",
+    "memory": "One set in each first-division product.",
+    "related": [
+      "haploid",
+      "meiosis-ii"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "prophase-ii",
+    "term": "Prophase II",
+    "aliases": [],
+    "simple": "The beginning of the second meiotic division.",
+    "how": "Division machinery forms without a new round of DNA replication.",
+    "memory": "Prepare to split the sisters.",
+    "related": [
+      "spindle",
+      "meiosis-ii",
+      "replication"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "metaphase-ii",
+    "term": "Metaphase II",
+    "aliases": [],
+    "simple": "The stage when individual chromosomes align in each haploid cell.",
+    "how": "Their sister chromatids prepare to move to opposite sides of the cell.",
+    "memory": "Individual chromosomes line up.",
+    "related": [
+      "sister",
+      "anaphase-ii"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "anaphase-ii",
+    "term": "Anaphase II",
+    "aliases": [],
+    "simple": "The stage when sister chromatids separate.",
+    "how": "The separated chromatids become the chromosomes of the daughter cells.",
+    "memory": "Sisters move apart.",
+    "related": [
+      "sister",
+      "telophase-ii"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "telophase-ii",
+    "term": "Telophase II",
+    "aliases": [],
+    "simple": "The closing stage of the second meiotic division.",
+    "how": "Nuclei form, and the general sequence yields four haploid cells with unduplicated chromosomes.",
+    "memory": "Four haploid products in the general model.",
+    "related": [
+      "haploid",
+      "meiosis-ii",
+      "nucleus"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "crossing-over",
+    "term": "Crossing over",
+    "aliases": [
+      "recombination",
+      "recombinant",
+      "nonsister chromatids"
+    ],
+    "simple": "Exchange of corresponding DNA segments between nonsister chromatids.",
+    "how": "During prophase I, chromatids from different homologs exchange DNA, creating new allele combinations.",
+    "memory": "Swap matching segments.",
+    "related": [
+      "chiasma",
+      "synapsis",
+      "allele"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "synapsis",
+    "term": "Synapsis",
+    "aliases": [],
+    "simple": "Close pairing of homologous chromosomes during prophase I.",
+    "how": "Pairing aligns corresponding regions before crossing over.",
+    "memory": "Synapsis brings homologs together.",
+    "related": [
+      "homolog",
+      "prophase-i",
+      "crossing-over"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "chiasma",
+    "term": "Chiasma",
+    "aliases": [
+      "chiasmata"
+    ],
+    "simple": "A visible crossover connection between homologous chromosomes.",
+    "how": "It marks a connection associated with exchanged nonsister chromatids. It is distinct from the centromere.",
+    "memory": "Chiasma = crossover connection.",
+    "related": [
+      "crossing-over",
+      "centromere",
+      "synapsis"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "assortment",
+    "term": "Independent assortment",
+    "aliases": [
+      "assortment"
+    ],
+    "simple": "Independent orientation of homologous chromosome pairs at metaphase I.",
+    "how": "Alternative orientations mix whole maternal and paternal chromosomes across gametes. Two pairs allow four possible types across orientations.",
+    "memory": "Each pair makes its own orientation choice.",
+    "related": [
+      "metaphase-i",
+      "maternal",
+      "paternal"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "mutation",
+    "term": "Mutation",
+    "aliases": [
+      "mutations"
+    ],
+    "simple": "A change in a DNA sequence.",
+    "how": "Mutation can create new alleles. Sexual reproduction reshuffles alleles that already exist.",
+    "memory": "Mutation supplies new versions.",
+    "related": [
+      "dna",
+      "allele",
+      "variation"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "heritable",
+    "term": "Heritable variation",
+    "aliases": [
+      "heritable",
+      "inherited variation"
+    ],
+    "simple": "Differences that can pass from parents to offspring.",
+    "how": "Natural selection can act on inherited differences associated with survival and reproduction.",
+    "memory": "Heritable means it can be inherited.",
+    "related": [
+      "variation",
+      "selection",
+      "phenotype"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "selection",
+    "term": "Natural selection",
+    "aliases": [],
+    "simple": "A process in which some heritable variants become more common through differences in reproductive success.",
+    "how": "It acts on variation rather than creating the new alleles itself. The seedlings are a conceptual illustration.",
+    "memory": "Selection changes which inherited variants become common.",
+    "related": [
+      "heritable",
+      "mutation",
+      "phenotype"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "variation",
+    "term": "Genetic variation",
+    "aliases": [
+      "genetic variety",
+      "genetic diversity",
+      "variation",
+      "diversity"
+    ],
+    "simple": "Differences in genetic information among individuals.",
+    "how": "Mutation adds alleles, while assortment, crossing over and fertilization create combinations.",
+    "memory": "New versions plus new combinations.",
+    "related": [
+      "mutation",
+      "assortment",
+      "crossing-over"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "sexual",
+    "term": "Sexual reproduction",
+    "aliases": [],
+    "simple": "Reproduction involving the combination of genetic contributions through gametes.",
+    "how": "The sperm-and-egg example illustrates new combinations in offspring.",
+    "memory": "Combine gamete contributions.",
+    "related": [
+      "gamete",
+      "fertilization",
+      "asexual"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "asexual",
+    "term": "Asexual reproduction",
+    "aliases": [
+      "budding"
+    ],
+    "simple": "Reproduction from one parent without fusion of gametes.",
+    "how": "Hydra budding illustrates offspring that are usually clones of the parent.",
+    "memory": "One parent supplies the starting information.",
+    "related": [
+      "clone",
+      "sexual"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "clone",
+    "term": "Clone",
+    "aliases": [
+      "clones"
+    ],
+    "simple": "A genetically matching copy or group derived from the same source.",
+    "how": "The slides say asexual offspring are usually clones. That qualifier avoids claiming perfect identity in every case.",
+    "memory": "Usually matching copies.",
+    "related": [
+      "asexual",
+      "mutation"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "spore",
+    "term": "Spore",
+    "aliases": [
+      "spores"
+    ],
+    "simple": "A reproductive cell that can develop without fusing with another gamete.",
+    "how": "In the plant pattern shown, meiosis produces haploid spores that lead to the gametophyte generation.",
+    "memory": "A spore can grow without fertilization.",
+    "related": [
+      "gametophyte",
+      "sporophyte",
+      "gamete"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "sporophyte",
+    "term": "Sporophyte",
+    "aliases": [],
+    "simple": "The diploid multicellular generation in the plant life cycle.",
+    "how": "It produces haploid spores by meiosis in the pattern shown.",
+    "memory": "Sporophyte makes spores.",
+    "related": [
+      "spore",
+      "diploid",
+      "gametophyte"
+    ],
+    "kind": "term",
+    "whyName": "Sporophyte makes spores.",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "gametophyte",
+    "term": "Gametophyte",
+    "aliases": [
+      "gametophytes"
+    ],
+    "simple": "The haploid multicellular generation in the plant life cycle.",
+    "how": "It produces gametes by mitosis, because it already has one chromosome set.",
+    "memory": "Gametophyte makes gametes.",
+    "related": [
+      "gamete",
+      "haploid",
+      "sporophyte"
+    ],
+    "kind": "term",
+    "whyName": "Gametophyte makes gametes.",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "maternal",
+    "term": "Maternal",
+    "aliases": [
+      "mother"
+    ],
+    "simple": "Coming from the mother.",
+    "how": "The diagrams use one colour to track the chromosome contribution from the mother.",
+    "memory": "Maternal = mother’s contribution.",
+    "related": [
+      "paternal",
+      "homolog",
+      "assortment"
+    ],
+    "kind": "term",
+    "whyName": "Maternal = mother’s contribution.",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "paternal",
+    "term": "Paternal",
+    "aliases": [
+      "father"
+    ],
+    "simple": "Coming from the father.",
+    "how": "The second colour tracks the chromosome contribution from the father. Colours mark origin, not different chromosome types.",
+    "memory": "Paternal = father’s contribution.",
+    "related": [
+      "maternal",
+      "homolog",
+      "assortment"
+    ],
+    "kind": "term",
+    "whyName": "Paternal = father’s contribution.",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "phenotype",
+    "term": "Phenotype",
+    "aliases": [
+      "phenotypic"
+    ],
+    "simple": "An observable characteristic or trait.",
+    "how": "The thought question links inherited differences in traits with natural selection.",
+    "memory": "Phenotype is the trait you can observe or measure.",
+    "related": [
+      "heritable",
+      "selection",
+      "allele"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "centriole",
+    "term": "Centriole",
+    "aliases": [
+      "centrioles"
+    ],
+    "simple": "A small barrel-shaped cell structure, usually within a centrosome.",
+    "how": "It is a cell structure, not the position of a gene on a chromosome.",
+    "memory": "Centriole is not a gene address.",
+    "related": [
+      "locus",
+      "spindle"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "nucleolus",
+    "term": "Nucleolus",
+    "aliases": [],
+    "simple": "A region of the nucleus involved in making and assembling ribosomes.",
+    "how": "It is a cell structure, so it is a distractor in the locus question.",
+    "memory": "Nucleolus helps assemble ribosomes.",
+    "related": [
+      "nucleus",
+      "ribosome",
+      "locus"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "ribosome",
+    "term": "Ribosome",
+    "aliases": [
+      "ribosomes"
+    ],
+    "simple": "A cell structure that makes proteins using RNA instructions.",
+    "how": "It is different from a chromosome and from a gene’s locus.",
+    "memory": "Ribosome = protein-making machinery.",
+    "related": [
+      "dna",
+      "nucleolus",
+      "locus"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "tetraploid",
+    "term": "Tetraploid",
+    "aliases": [
+      "tetraploidy",
+      "4n"
+    ],
+    "simple": "Having four complete chromosome sets.",
+    "how": "A distractor uses 4n. Ordinary DNA replication in the lesson does not turn a 2n cell into a 4n cell.",
+    "memory": "Tetra = four sets.",
+    "related": [
+      "ploidy",
+      "diploid",
+      "replication"
+    ],
+    "kind": "term",
+    "whyName": "Tetra = four sets.",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "nucleus",
+    "term": "Nucleus",
+    "aliases": [
+      "nuclei"
+    ],
+    "simple": "The compartment containing chromosomes in a eukaryotic cell.",
+    "how": "Nuclei form at the closing stage of the meiotic sequence shown.",
+    "memory": "The nucleus contains the chromosome packages.",
+    "related": [
+      "chromosome",
+      "nucleolus",
+      "telophase-ii"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "spindle",
+    "term": "Spindle",
+    "aliases": [
+      "spindles"
+    ],
+    "simple": "The division machinery that helps move chromosomes.",
+    "how": "The lesson notes spindle formation in prophase II and movement of chromatids later.",
+    "memory": "Spindle helps separate the chromosomes.",
+    "related": [
+      "prophase-ii",
+      "anaphase-ii"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  },
+  {
+    "id": "centromere",
+    "term": "Centromere",
+    "aliases": [
+      "centromeres"
+    ],
+    "simple": "A specialised chromosome region where division machinery attaches.",
+    "how": "Sister chromatids are held together around this region. A chiasma instead connects homologs after crossing over.",
+    "memory": "Centromere and chiasma mean different connections.",
+    "related": [
+      "sister",
+      "chiasma",
+      "spindle"
+    ],
+    "kind": "term",
+    "whyName": "",
+    "source": "A short teaching explanation supplementing the supplied slides. NHGRI terminology reference where applicable."
+  }
+]
