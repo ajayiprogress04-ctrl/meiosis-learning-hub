@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 2 · Confirmed from the Meiosis app development conversation · 17 October 2026
+Version 3 · Confirmed from the Meiosis app development conversation · 17 October 2026
 
 ## How to use this brief
 
@@ -61,6 +61,7 @@ These are established simplification choices for Meiosis. For another app, do no
 - Clicking Next or Previous opens the destination at the TOP, even if previously visited.
 - Returning from a glossary explanation or diagram is different: restore the precise lesson/visual, scroll position, focus and reading context.
 - Make the destination and return actions obvious. Avoid redundant navigation panels.
+- Every question-review or practice sequence needs a clear End review action at the bottom. It returns to the overview at the top without resetting answers or saved work.
 
 ## 5. My glossary and explanation rules
 
@@ -127,6 +128,8 @@ Keep messages concise. Explain the result and the next essential action. Ask foc
 For every complaint, correction or preference I express about my apps, update this brief as part of that task without waiting for me to ask again. Record the reusable rule, amend the relevant section, and resolve the older conflicting rule. Do not treat an app-specific request as a universal rule unless that is clearly intended. Keep general defaults separate from decisions specific to one app. Preserve this document as the reusable source of truth, and include the latest copy with future project handovers.
 
 ### Revision notes
+
+- Version 3, 17 October 2026: added an End review action after practice questions, returning to the overview without clearing answers.
 
 - Version 2, 17 October 2026: added an explicit Copy link beside Quick guide and Share app; made updating this brief after every complaint/correction an ongoing instruction.
 - Naming decision: retain Meiosis Learning Hub; the proposed broader rename was declined.

@@ -1,0 +1,11 @@
+SMALL UPDATE FOR YOUR EXISTING MEIOSIS REPOSITORY
+
+This ZIP contains the current app code, JSON content, scripts, tests, documents, logo, developer portrait and SVG backgrounds. It excludes unchanged large PowerPoints, WebP teaching images and font files already present in your repository.
+
+1. Extract this ZIP.
+2. Open https://github.com/ajayiprogress04-ctrl/meiosis-learning-hub
+3. Add file -> Upload files. Upload the extracted CONTENTS at the existing repository root.
+4. Replace matching files and commit. KEEP existing sources/, assets/figures/, assets/slides/ and assets/fonts/. Do not delete the repository contents first.
+5. Wait for the existing Vercel project to build.
+
+This is an update package for the existing repository, not a standalone replacement. It includes End review -> Overview and all preceding code updates.

@@ -81,4 +81,6 @@ test('actual app module boots and responds to navigation, overlays and learning 
 
  await t.test('Copy link is an explicit landing action and never invokes native sharing',async()=>{link('#/home');assert.match(elements.get('main').innerHTML,/data-copy-app-link>Copy link/);let copied,shared=false;navigator.share=async()=>{shared=true};navigator.clipboard.writeText=async value=>{copied=value};action({'data-copy-app-link':''});await tick();assert.equal(copied,'http://localhost/');assert.equal(shared,false);});
 
+ await t.test('End review returns to the overview at the top and keeps answers',()=>{link('#/practice/all');assert.match(elements.get('main').innerHTML,/End review → Overview/);window.scrollY=940;const before=JSON.parse(memory.get('meiosis-learning-v1')).answers;link('#/home');assert.equal(location.hash,'#/home');assert.equal(window.scrollY,0);assert.deepEqual(JSON.parse(memory.get('meiosis-learning-v1')).answers,before);});
+
 });
