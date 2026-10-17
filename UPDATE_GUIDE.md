@@ -15,3 +15,5 @@ Latest simplification: removed the lesson toolbar containing Quick revision, Exp
 Developer profile now uses the portrait and qualifications checked against the live Appendicitis Hub profile. Longer details remain expandable. Normal navigation, including Next and Previous, opens the destination at the top; explicit Back to Lesson and glossary/diagram returns still preserve the saved reading position. Latest: 48 automated checks and build pass; browser visual checks remain pending.
 
 Share app is now beside Quick guide on the landing page. It uses native device sharing where supported, then clipboard copy or a visible copyable link. It shares the production app URL without lesson state, notes or answers. 49 automated checks and build pass; actual OS sharing and social-platform previews remain unverified.
+
+Landing actions now include Quick guide, Share app and a separate Copy link button. Copy link copies the app address directly. The latest My_App_Design_Preferences.md is included and records the instruction to update it after each complaint or correction. 50 automated checks and build pass.

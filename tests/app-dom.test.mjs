@@ -79,4 +79,6 @@ test('actual app module boots and responds to navigation, overlays and learning 
 
  await t.test('Share app appears beside Quick guide and shares the public app address',async()=>{link('#/home');assert.match(elements.get('main').innerHTML,/data-guide>Quick guide<\/button><button[^>]+data-share-app/);let shared;Object.defineProperty(globalThis,'navigator',{configurable:true,value:{share:async data=>{shared=data},clipboard:{writeText:async()=>{}}}});action({'data-share-app':''});await tick();assert.equal(shared.title,'Meiosis Learning Hub');assert.equal(shared.url,'http://localhost/');let copied;navigator.share=undefined;navigator.clipboard.writeText=async value=>{copied=value};action({'data-share-app':''});await tick();assert.equal(copied,'http://localhost/');});
 
+ await t.test('Copy link is an explicit landing action and never invokes native sharing',async()=>{link('#/home');assert.match(elements.get('main').innerHTML,/data-copy-app-link>Copy link/);let copied,shared=false;navigator.share=async()=>{shared=true};navigator.clipboard.writeText=async value=>{copied=value};action({'data-copy-app-link':''});await tick();assert.equal(copied,'http://localhost/');assert.equal(shared,false);});
+
 });
