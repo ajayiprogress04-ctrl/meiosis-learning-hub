@@ -1,3 +1,5 @@
+> **Complete consolidated update:** Start with START_HERE.md. Audit results are in AUDIT_REPORT.md.
+
 # Meiosis Learning Hub
 
 A working, browser-based BIO 1107 learning companion made from the supplied Class 1 and Class 2 PowerPoints. Instructor: Mrs. Oyawale.
@@ -9,7 +11,7 @@ A working, browser-based BIO 1107 learning companion made from the supplied Clas
 - All 30 original slides, including the covers and all ten thought questions.
 - A searchable glossary of 53 concepts, clickable lesson terms and explorable diagrams.
 - A Back to Lesson action that closes explanations without rebuilding the underlying lesson. Scroll position, open disclosures and focus are retained.
-- Local progress, bookmarks, notes and question answers. Light, Dark and Colour appearances.
+- Notes and question answers saved locally; older progress/bookmark data retained. Light, Dark and Colour appearances.
 - Complete source decks, editable content JSON, local fonts and their licence files.
 
 The app has no runtime dependencies, paid services, accounts or API keys. Once hosted, students only need a modern browser. Saved work stays on the current browser/device.
@@ -33,7 +35,7 @@ There is no dependency installation step. Do not double-click `index.html`: brow
 
 No repository has been created or modified for this delivery.
 
-1. Sign in to GitHub and create a new repository, for example `meiosis-learning-hub`.
+1. Open your existing `ajayiprogress04-ctrl/meiosis-learning-hub` repository. See START_HERE.md for the one-upload update.
 2. Choose **Add file → Upload files**. For a new empty repository, use its **uploading an existing file** link.
 3. Open the extracted project folder. Drag its **contents**, including the `assets`, `content`, `sources`, `scripts` and `tests` folders, into the upload area. Preserve their folder structure.
 4. Ensure `index.html`, `package.json` and `vercel.json` are at the repository root, not inside an extra folder.
@@ -79,7 +81,7 @@ Future pushes to the connected branch can trigger a new deployment. The build va
 2. Open a diagram, tap a numbered concept, use **Back to diagram**, then **Back to Lesson**.
 3. Repeat using Escape and the browser Back button.
 4. Open the glossary from a lesson, search for a term, then use **Back to Lesson**.
-5. Answer a question, mark a lesson complete and write a note. Reload and confirm the data is retained.
+5. Answer a question and write a note. Reload and confirm the data is retained.
 6. Try all three appearances and a narrow phone screen. Confirm the navigation menu, glossary dialog, source slide images and Previous/Next controls work.
 
 Automated checks are described in `TESTING.md`. They do not replace a real browser/device check.
