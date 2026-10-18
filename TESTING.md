@@ -1,3 +1,5 @@
+> Current update: version 2.0. See UPDATE_2_0.md and START_HERE.md for the latest behaviour, tests and deployment steps. Earlier notes below are historical.
+
 # Verification
 
 Run npm test and npm run build from the project folder. Current result: 46 checks pass and the static build passes.

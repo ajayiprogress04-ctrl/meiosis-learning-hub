@@ -15,3 +15,9 @@ for(const l of course.lessons){const source=expected.find(s=>s.id===l.sourceId);
 for(const q of course.questions){const s=expected.find(s=>s.id===q.sourceId);if(q.prompt!==s.text[1]||JSON.stringify(q.options)!==JSON.stringify(s.text.slice(2)))errors.push('Question wording mismatch '+q.id);}
 const represented=new Set([...course.lessons.map(l=>l.sourceId),...course.questions.map(q=>q.sourceId)]);if(represented.size!==26)errors.push('Teaching/question coverage mismatch.');
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`Content verified: ${decks.length} decks, ${expected.length} source slides, ${course.objectives.length} objectives, ${course.lessons.length} lessons, ${course.questions.length} questions, ${terms.length} glossary terms. All local content assets are present.`);
+
+const activities=await read('activities.json');
+for(const term of terms)if(!activities.some(a=>a.termId===term.id))throw Error('Missing term activity '+term.id);
+for(const lesson of course.lessons)if(activities.filter(a=>a.lessonId===lesson.id&&!a.termId).length<2)throw Error('Missing lesson applications '+lesson.id);
+for(const a of activities){if(!course.lessons.some(l=>l.id===a.lessonId&&l.objectiveId===a.objectiveId))throw Error('Invalid activity lesson '+a.id);for(const key of ['scenario','answer','why','remember','source'])if(!a[key]?.trim())throw Error('Incomplete activity '+a.id);for(const q of a.questions)if(!q.prompt||!q.feedback||q.options.length<2||!Number.isInteger(q.correct)||q.correct<0||q.correct>=q.options.length)throw Error('Invalid practice '+a.id);}
+console.log('Activity coverage verified: '+activities.length+' complete scenarios, with all terms and lessons connected.');

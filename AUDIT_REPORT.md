@@ -1,3 +1,5 @@
+> Current update: version 2.0. See UPDATE_2_0.md and START_HERE.md for the latest behaviour, tests and deployment steps. Earlier notes below are historical.
+
 # Meiosis audit and consolidated update
 
 Reviewed 17 October 2026. Target: https://github.com/ajayiprogress04-ctrl/meiosis-learning-hub. The Appendicitis Hub was a read-only reference.

@@ -1,0 +1,328 @@
+{
+  "counts": {
+    "objectives": 8,
+    "lessons": 16,
+    "glossaryTerms": 53,
+    "distinctScenarios": 85,
+    "independentQuestions": 85
+  },
+  "objectives": [
+    {
+      "id": "o1",
+      "activities": [
+        "term-dna",
+        "term-chromosome",
+        "term-gene",
+        "term-locus",
+        "term-gamete",
+        "term-sex-chromosome",
+        "term-somatic",
+        "term-fertilization",
+        "term-meiosis",
+        "term-centriole",
+        "term-nucleolus",
+        "term-ribosome",
+        "term-nucleus",
+        "case-01",
+        "case-02",
+        "case-03",
+        "case-04"
+      ]
+    },
+    {
+      "id": "o2",
+      "activities": [
+        "term-allele",
+        "term-homolog",
+        "term-sister",
+        "term-sexual",
+        "term-asexual",
+        "term-clone",
+        "term-phenotype",
+        "term-centromere",
+        "case-05",
+        "case-06",
+        "case-07",
+        "case-08"
+      ]
+    },
+    {
+      "id": "o3",
+      "activities": [
+        "term-diploid",
+        "term-haploid",
+        "term-autosome",
+        "term-zygote",
+        "term-mitosis",
+        "term-telophase-i",
+        "term-telophase-ii",
+        "term-spore",
+        "term-sporophyte",
+        "term-gametophyte",
+        "term-tetraploid",
+        "case-09",
+        "case-10",
+        "case-11",
+        "case-12",
+        "case-13",
+        "case-14"
+      ]
+    },
+    {
+      "id": "o4",
+      "activities": [
+        "term-replication",
+        "term-meiosis-i",
+        "term-meiosis-ii",
+        "case-15",
+        "case-16"
+      ]
+    },
+    {
+      "id": "o5",
+      "activities": [
+        "term-prophase-i",
+        "term-metaphase-i",
+        "term-anaphase-i",
+        "term-prophase-ii",
+        "term-metaphase-ii",
+        "term-anaphase-ii",
+        "term-spindle",
+        "case-17",
+        "case-18",
+        "case-19",
+        "case-20"
+      ]
+    },
+    {
+      "id": "o6",
+      "activities": [
+        "term-ploidy",
+        "term-crossing-over",
+        "term-synapsis",
+        "term-chiasma",
+        "case-21",
+        "case-22",
+        "case-23",
+        "case-24"
+      ]
+    },
+    {
+      "id": "o7",
+      "activities": [
+        "term-assortment",
+        "term-maternal",
+        "term-paternal",
+        "case-25",
+        "case-26",
+        "case-27",
+        "case-28"
+      ]
+    },
+    {
+      "id": "o8",
+      "activities": [
+        "term-mutation",
+        "term-heritable",
+        "term-selection",
+        "term-variation",
+        "case-29",
+        "case-30",
+        "case-31",
+        "case-32"
+      ]
+    }
+  ],
+  "terms": {
+    "dna": "term-dna",
+    "chromosome": "term-chromosome",
+    "gene": "term-gene",
+    "locus": "term-locus",
+    "allele": "term-allele",
+    "gamete": "term-gamete",
+    "homolog": "term-homolog",
+    "sister": "term-sister",
+    "replication": "term-replication",
+    "diploid": "term-diploid",
+    "haploid": "term-haploid",
+    "ploidy": "term-ploidy",
+    "autosome": "term-autosome",
+    "sex-chromosome": "term-sex-chromosome",
+    "somatic": "term-somatic",
+    "zygote": "term-zygote",
+    "fertilization": "term-fertilization",
+    "mitosis": "term-mitosis",
+    "meiosis": "term-meiosis",
+    "meiosis-i": "term-meiosis-i",
+    "meiosis-ii": "term-meiosis-ii",
+    "prophase-i": "term-prophase-i",
+    "metaphase-i": "term-metaphase-i",
+    "anaphase-i": "term-anaphase-i",
+    "telophase-i": "term-telophase-i",
+    "prophase-ii": "term-prophase-ii",
+    "metaphase-ii": "term-metaphase-ii",
+    "anaphase-ii": "term-anaphase-ii",
+    "telophase-ii": "term-telophase-ii",
+    "crossing-over": "term-crossing-over",
+    "synapsis": "term-synapsis",
+    "chiasma": "term-chiasma",
+    "assortment": "term-assortment",
+    "mutation": "term-mutation",
+    "heritable": "term-heritable",
+    "selection": "term-selection",
+    "variation": "term-variation",
+    "sexual": "term-sexual",
+    "asexual": "term-asexual",
+    "clone": "term-clone",
+    "spore": "term-spore",
+    "sporophyte": "term-sporophyte",
+    "gametophyte": "term-gametophyte",
+    "maternal": "term-maternal",
+    "paternal": "term-paternal",
+    "phenotype": "term-phenotype",
+    "centriole": "term-centriole",
+    "nucleolus": "term-nucleolus",
+    "ribosome": "term-ribosome",
+    "tetraploid": "term-tetraploid",
+    "nucleus": "term-nucleus",
+    "spindle": "term-spindle",
+    "centromere": "term-centromere"
+  },
+  "visuals": {
+    "assets/figures/class1-03-1.webp": {
+      "lessonId": "lesson-01",
+      "objectiveId": "o1",
+      "activities": [
+        "case-01",
+        "case-02"
+      ]
+    },
+    "assets/figures/class1-04-1.webp": {
+      "lessonId": "lesson-02",
+      "objectiveId": "o1",
+      "activities": [
+        "case-03",
+        "case-04"
+      ]
+    },
+    "assets/figures/class1-06-1.webp": {
+      "lessonId": "lesson-03",
+      "objectiveId": "o2",
+      "activities": [
+        "case-05",
+        "case-06"
+      ]
+    },
+    "assets/figures/class1-07-1.webp": {
+      "lessonId": "lesson-04",
+      "objectiveId": "o2",
+      "activities": [
+        "case-07",
+        "case-08"
+      ]
+    },
+    "assets/figures/class1-09-1.webp": {
+      "lessonId": "lesson-05",
+      "objectiveId": "o3",
+      "activities": [
+        "case-09",
+        "case-10"
+      ]
+    },
+    "assets/figures/class1-11-1.webp": {
+      "lessonId": "lesson-06",
+      "objectiveId": "o3",
+      "activities": [
+        "case-11",
+        "case-12"
+      ]
+    },
+    "assets/figures/class1-12-1.webp": {
+      "lessonId": "lesson-07",
+      "objectiveId": "o3",
+      "activities": [
+        "case-13",
+        "case-14"
+      ]
+    },
+    "assets/figures/class1-14-1.webp": {
+      "lessonId": "lesson-08",
+      "objectiveId": "o4",
+      "activities": [
+        "case-15",
+        "case-16"
+      ]
+    },
+    "assets/figures/class2-03-1.webp": {
+      "lessonId": "lesson-09",
+      "objectiveId": "o5",
+      "activities": [
+        "case-17",
+        "case-18"
+      ]
+    },
+    "assets/figures/class2-04-1.webp": {
+      "lessonId": "lesson-10",
+      "objectiveId": "o5",
+      "activities": [
+        "case-19",
+        "case-20"
+      ]
+    },
+    "assets/figures/class2-06-1.webp": {
+      "lessonId": "lesson-11",
+      "objectiveId": "o6",
+      "activities": [
+        "case-21",
+        "case-22"
+      ]
+    },
+    "assets/figures/class2-07-1.webp": {
+      "lessonId": "lesson-12",
+      "objectiveId": "o6",
+      "activities": [
+        "case-23",
+        "case-24"
+      ]
+    },
+    "assets/figures/class2-09-1.webp": {
+      "lessonId": "lesson-13",
+      "objectiveId": "o7",
+      "activities": [
+        "case-25",
+        "case-26"
+      ]
+    },
+    "assets/figures/class2-11-1.webp": {
+      "lessonId": "lesson-14",
+      "objectiveId": "o7",
+      "activities": [
+        "case-27",
+        "case-28"
+      ]
+    },
+    "assets/figures/class2-12-1.webp": {
+      "lessonId": "lesson-15",
+      "objectiveId": "o8",
+      "activities": [
+        "case-29",
+        "case-30"
+      ]
+    },
+    "assets/figures/class2-14-1.webp": {
+      "lessonId": "lesson-16",
+      "objectiveId": "o8",
+      "activities": [
+        "case-31",
+        "case-32"
+      ]
+    }
+  },
+  "limitations": [
+    "Coverage maps availability, not mastery.",
+    "Two related topic cases supplement each term; these are shared lesson cases, not additional unique term-specific scenarios.",
+    "No automatic free-text grading, diagram dragging or clinical competence assessment.",
+    "Examiner defence and every possible biological exception are not exhaustively covered.",
+    "Original illustrations are teaching symbols; hypothetical numbers do not measure the drawings."
+  ]
+}

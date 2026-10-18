@@ -1,10 +1,12 @@
 {
   "name": "meiosis-learning-hub",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "description": "An objective-based BIO 1107 companion built from two supplied PowerPoints.",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",

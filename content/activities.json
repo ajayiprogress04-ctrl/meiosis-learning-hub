@@ -1,0 +1,2095 @@
+[
+  {
+    "id": "term-dna",
+    "termId": "dna",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "DNA",
+    "scenario": "A chromosome contains a long sequence of A, T, G and C bases. What stores the inherited instructions?",
+    "answer": "DNA stores the sequence information.",
+    "why": "The base sequence carries information; chromosome packaging organises it.",
+    "remember": "DNA is the information; chromosomes are its packages.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which change directly alters a DNA sequence?",
+        "options": [
+          "Replacing one base",
+          "Moving an unchanged chromosome",
+          "Condensing an unchanged chromosome"
+        ],
+        "correct": 0,
+        "feedback": "The base sequence carries information; chromosome packaging organises it."
+      }
+    ]
+  },
+  {
+    "id": "term-chromosome",
+    "termId": "chromosome",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Chromosome",
+    "scenario": "A cell has 6 chromosomes before S phase. After replication, how many chromosomes are counted before sisters separate?",
+    "answer": "6 replicated chromosomes, with 12 chromatids.",
+    "why": "Count joined sister pairs as single replicated chromosomes until sister separation.",
+    "remember": "One package can have two joined copies.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A cell has 8 chromosomes before S phase. Immediately after S phase it has\u2026",
+        "options": [
+          "16 chromosomes and 16 chromatids",
+          "4 chromosomes and 8 chromatids",
+          "8 chromosomes and 16 chromatids"
+        ],
+        "correct": 2,
+        "feedback": "Count joined sister pairs as single replicated chromosomes until sister separation."
+      }
+    ]
+  },
+  {
+    "id": "term-gene",
+    "termId": "gene",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Gene",
+    "scenario": "Two homologs carry different versions of a DNA region involved in pigment production. What is the region?",
+    "answer": "A gene; its different versions are alleles.",
+    "why": "A gene is a DNA region with a functional product; alleles are versions at its locus.",
+    "remember": "A gene is a stretch of DNA.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A DNA region produces a functional RNA. It can be\u2026",
+        "options": [
+          "An entire chromosome set",
+          "A gene",
+          "Only a centromere"
+        ],
+        "correct": 1,
+        "feedback": "A gene is a DNA region with a functional product; alleles are versions at its locus."
+      }
+    ]
+  },
+  {
+    "id": "term-locus",
+    "termId": "locus",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Locus",
+    "scenario": "Two homologs carry the pigment gene at corresponding positions. What is shared?",
+    "answer": "The locus, even if the alleles differ.",
+    "why": "Locus means the position; it does not specify the version present.",
+    "remember": "Locus = location.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "One homolog carries A and the other a at the same position. They share\u2026",
+        "options": [
+          "A locus",
+          "Necessarily an identical allele",
+          "Only a phenotype"
+        ],
+        "correct": 0,
+        "feedback": "Locus means the position; it does not specify the version present."
+      }
+    ]
+  },
+  {
+    "id": "term-allele",
+    "termId": "allele",
+    "lessonId": "lesson-04",
+    "objectiveId": "o2",
+    "title": "Allele",
+    "scenario": "A diploid cell has A on one homolog and a on the other. How many alleles are represented at that locus?",
+    "answer": "Two allele versions: A and a.",
+    "why": "The letters denote alternative versions of the same gene, not two unrelated genes.",
+    "remember": "Same address, different version.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "At a locus, a cell carries B and B. How many distinct allele versions are present?",
+        "options": [
+          "Two",
+          "Four",
+          "One"
+        ],
+        "correct": 2,
+        "feedback": "The letters denote alternative versions of the same gene, not two unrelated genes."
+      }
+    ]
+  },
+  {
+    "id": "term-gamete",
+    "termId": "gamete",
+    "lessonId": "lesson-01",
+    "objectiveId": "o1",
+    "title": "Gamete",
+    "scenario": "In an animal with 2n = 12, what chromosome number is expected in a normal gamete?",
+    "answer": "6 chromosomes.",
+    "why": "Meiosis reduces two sets to one: n = 12 / 2 = 6.",
+    "remember": "A gamete contributes one set.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "An animal has 2n = 18. A normal gamete contains\u2026",
+        "options": [
+          "36 chromosomes",
+          "9 chromosomes",
+          "18 chromosomes"
+        ],
+        "correct": 1,
+        "feedback": "Meiosis reduces two sets to one: n = 12 / 2 = 6."
+      }
+    ]
+  },
+  {
+    "id": "term-homolog",
+    "termId": "homolog",
+    "lessonId": "lesson-04",
+    "objectiveId": "o2",
+    "title": "Homologous chromosomes",
+    "scenario": "A maternal chromosome 2 and paternal chromosome 2 carry corresponding genes. What pair is this?",
+    "answer": "A homologous pair.",
+    "why": "Homologs correspond in gene arrangement but may carry different alleles.",
+    "remember": "Homologs = parental counterparts.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which pair consists of homologs?",
+        "options": [
+          "Maternal and paternal chromosome 5",
+          "Two copies made by replicating one chromosome",
+          "Chromosome 1 and chromosome 8"
+        ],
+        "correct": 0,
+        "feedback": "Homologs correspond in gene arrangement but may carry different alleles."
+      }
+    ]
+  },
+  {
+    "id": "term-sister",
+    "termId": "sister",
+    "lessonId": "lesson-04",
+    "objectiveId": "o2",
+    "title": "Sister chromatids",
+    "scenario": "One chromosome replicates into two joined copies. What are those copies?",
+    "answer": "Sister chromatids.",
+    "why": "They arise from replication of one chromosome, rather than inheritance from two parents.",
+    "remember": "Sisters begin as replication copies.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Before crossing over, the joined copies of one replicated chromosome are\u2026",
+        "options": [
+          "A maternal-paternal homologous pair",
+          "Two haploid sets",
+          "Sister chromatids"
+        ],
+        "correct": 2,
+        "feedback": "They arise from replication of one chromosome, rather than inheritance from two parents."
+      }
+    ]
+  },
+  {
+    "id": "term-replication",
+    "termId": "replication",
+    "lessonId": "lesson-08",
+    "objectiveId": "o4",
+    "title": "DNA replication",
+    "scenario": "A diploid cell copies its DNA before meiosis I. Does this make it tetraploid?",
+    "answer": "No. It is still diploid, with replicated chromosomes.",
+    "why": "DNA amount doubles, but the number of homologous sets does not.",
+    "remember": "Copy once before dividing twice.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "After S phase a 2n = 10 cell is\u2026",
+        "options": [
+          "Haploid because meiosis will follow",
+          "Diploid with duplicated DNA",
+          "Tetraploid because DNA doubled"
+        ],
+        "correct": 1,
+        "feedback": "DNA amount doubles, but the number of homologous sets does not."
+      }
+    ]
+  },
+  {
+    "id": "term-diploid",
+    "termId": "diploid",
+    "lessonId": "lesson-05",
+    "objectiveId": "o3",
+    "title": "Diploid",
+    "scenario": "A cell has two sets, each containing 4 chromosome types. What is its ploidy and count?",
+    "answer": "Diploid; 2n = 8.",
+    "why": "Two complete sets define diploidy; the total count is 2 \u00d7 4.",
+    "remember": "Di = two sets.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A cell has two sets of 7. Its chromosome count is\u2026",
+        "options": [
+          "14",
+          "7",
+          "28"
+        ],
+        "correct": 0,
+        "feedback": "Two complete sets define diploidy; the total count is 2 \u00d7 4."
+      }
+    ]
+  },
+  {
+    "id": "term-haploid",
+    "termId": "haploid",
+    "lessonId": "lesson-05",
+    "objectiveId": "o3",
+    "title": "Haploid",
+    "scenario": "After meiosis I, each cell has one homolog from each pair, still duplicated. Is it haploid?",
+    "answer": "Yes; one set is present even though chromosomes retain sisters.",
+    "why": "Ploidy counts sets, not chromatids.",
+    "remember": "Haploid = one set, written n.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A cell has one set of 5 duplicated chromosomes. It is\u2026",
+        "options": [
+          "Diploid with 10 chromosomes",
+          "Tetraploid",
+          "Haploid with 10 chromatids"
+        ],
+        "correct": 2,
+        "feedback": "Ploidy counts sets, not chromatids."
+      }
+    ]
+  },
+  {
+    "id": "term-ploidy",
+    "termId": "ploidy",
+    "lessonId": "lesson-12",
+    "objectiveId": "o6",
+    "title": "Ploidy",
+    "scenario": "Two cells each contain 12 chromosomes. One species has n = 6, another n = 12. Are both diploid?",
+    "answer": "No. The first is diploid; the second is haploid.",
+    "why": "Total number only identifies ploidy when the set size is known.",
+    "remember": "Count sets, not copied DNA.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A cell has 15 chromosomes and its basic set contains 5. How many sets are present?",
+        "options": [
+          "Fifteen",
+          "Three",
+          "Five"
+        ],
+        "correct": 1,
+        "feedback": "Total number only identifies ploidy when the set size is known."
+      }
+    ]
+  },
+  {
+    "id": "term-autosome",
+    "termId": "autosome",
+    "lessonId": "lesson-05",
+    "objectiveId": "o3",
+    "title": "Autosome",
+    "scenario": "In a typical human karyotype, how is chromosome 7 classified?",
+    "answer": "An autosome.",
+    "why": "Autosomes are distinguished from sex chromosomes.",
+    "remember": "22 + 1 = 23 in a human gamete.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which is an autosome in the usual human classification?",
+        "options": [
+          "Chromosome 12",
+          "X",
+          "Y"
+        ],
+        "correct": 0,
+        "feedback": "Autosomes are distinguished from sex chromosomes."
+      }
+    ]
+  },
+  {
+    "id": "term-sex-chromosome",
+    "termId": "sex-chromosome",
+    "lessonId": "lesson-01",
+    "objectiveId": "o1",
+    "title": "Sex chromosome",
+    "scenario": "A typical human XY cell has an X and a Y. Must these be homologous along their entire length?",
+    "answer": "No; they share limited homologous regions.",
+    "why": "Sex chromosomes need not be matching homologs across their entire lengths.",
+    "remember": "One of a human gamete\u2019s 23.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which statement about human X and Y is sound?",
+        "options": [
+          "They carry exactly the same genes",
+          "They are sister chromatids",
+          "They share limited pairing regions"
+        ],
+        "correct": 2,
+        "feedback": "Sex chromosomes need not be matching homologs across their entire lengths."
+      }
+    ]
+  },
+  {
+    "id": "term-somatic",
+    "termId": "somatic",
+    "lessonId": "lesson-01",
+    "objectiveId": "o1",
+    "title": "Somatic cell",
+    "scenario": "A typical human skin cell divides for tissue maintenance. Is it a gamete?",
+    "answer": "No; it is a somatic cell.",
+    "why": "Somatic refers to body cells rather than reproductive gametes.",
+    "remember": "Somatic means body.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which is a somatic cell?",
+        "options": [
+          "An egg cell",
+          "A typical muscle cell",
+          "A sperm cell"
+        ],
+        "correct": 1,
+        "feedback": "Somatic refers to body cells rather than reproductive gametes."
+      }
+    ]
+  },
+  {
+    "id": "term-zygote",
+    "termId": "zygote",
+    "lessonId": "lesson-06",
+    "objectiveId": "o3",
+    "title": "Zygote",
+    "scenario": "Two haploid animal gametes with n = 5 fuse. What is the immediate product?",
+    "answer": "A diploid zygote with 10 chromosomes.",
+    "why": "Fertilization combines one set from each gamete.",
+    "remember": "A zygote is the joined starting cell.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Two n = 8 gametes fuse. The zygote has\u2026",
+        "options": [
+          "16 chromosomes",
+          "8 chromosomes",
+          "4 chromosomes"
+        ],
+        "correct": 0,
+        "feedback": "Fertilization combines one set from each gamete."
+      }
+    ]
+  },
+  {
+    "id": "term-fertilization",
+    "termId": "fertilization",
+    "lessonId": "lesson-01",
+    "objectiveId": "o1",
+    "title": "Fertilization",
+    "scenario": "An egg contributes 6 chromosomes and a sperm contributes 6. What happens to set number at fusion?",
+    "answer": "One set plus one set restores two sets.",
+    "why": "Fertilization adds the gametic chromosome complements.",
+    "remember": "n + n restores 2n.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Fertilization of normal gametes restores\u2026",
+        "options": [
+          "Haploidy from diploidy",
+          "Four sets from two haploid sets",
+          "Diploidy from haploidy"
+        ],
+        "correct": 2,
+        "feedback": "Fertilization adds the gametic chromosome complements."
+      }
+    ]
+  },
+  {
+    "id": "term-mitosis",
+    "termId": "mitosis",
+    "lessonId": "lesson-06",
+    "objectiveId": "o3",
+    "title": "Mitosis",
+    "scenario": "A normal 2n = 8 body cell divides by mitosis. What count is expected in each daughter nucleus?",
+    "answer": "8 chromosomes.",
+    "why": "Mitosis distributes sister copies while preserving chromosome-set number.",
+    "remember": "Keep the starting set number.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A haploid n = 6 cell undergoes ordinary mitosis. Each daughter nucleus has\u2026",
+        "options": [
+          "12 chromosomes",
+          "6 chromosomes",
+          "3 chromosomes"
+        ],
+        "correct": 1,
+        "feedback": "Mitosis distributes sister copies while preserving chromosome-set number."
+      }
+    ]
+  },
+  {
+    "id": "term-meiosis",
+    "termId": "meiosis",
+    "lessonId": "lesson-01",
+    "objectiveId": "o1",
+    "title": "Meiosis",
+    "scenario": "A 2n = 8 cell completes ordinary meiosis. What set number is expected in its products?",
+    "answer": "One set; n = 4.",
+    "why": "One replication followed by two divisions separates homologs then sisters.",
+    "remember": "Homologs first, sisters second.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A 2n = 14 cell completes meiosis. A normal product has\u2026",
+        "options": [
+          "7 chromosomes",
+          "14 chromosomes",
+          "28 chromosomes"
+        ],
+        "correct": 0,
+        "feedback": "One replication followed by two divisions separates homologs then sisters."
+      }
+    ]
+  },
+  {
+    "id": "term-meiosis-i",
+    "termId": "meiosis-i",
+    "lessonId": "lesson-08",
+    "objectiveId": "o4",
+    "title": "Meiosis I",
+    "scenario": "A cell separates homologs while sister chromatids stay joined. Which division is occurring?",
+    "answer": "Meiosis I.",
+    "why": "The first division partitions homologous pairs and reduces set number.",
+    "remember": "I separates the parental pair.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "After meiosis I of a 2n = 6 cell, each daughter has\u2026",
+        "options": [
+          "6 duplicated chromosomes",
+          "3 unreplicated chromosomes",
+          "3 duplicated chromosomes"
+        ],
+        "correct": 2,
+        "feedback": "The first division partitions homologous pairs and reduces set number."
+      }
+    ]
+  },
+  {
+    "id": "term-meiosis-ii",
+    "termId": "meiosis-ii",
+    "lessonId": "lesson-08",
+    "objectiveId": "o4",
+    "title": "Meiosis II",
+    "scenario": "A haploid cell separates its sister chromatids without another S phase. Which division is this?",
+    "answer": "Meiosis II.",
+    "why": "The second division separates sisters; it does not halve the number of sets again.",
+    "remember": "II separates the copies.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A normal n = 4 cell entering meiosis II produces nuclei with\u2026",
+        "options": [
+          "8 chromosomes each",
+          "4 chromosomes each",
+          "2 chromosomes each"
+        ],
+        "correct": 1,
+        "feedback": "The second division separates sisters; it does not halve the number of sets again."
+      }
+    ]
+  },
+  {
+    "id": "term-prophase-i",
+    "termId": "prophase-i",
+    "lessonId": "lesson-09",
+    "objectiveId": "o5",
+    "title": "Prophase I",
+    "scenario": "Homologs pair and exchange corresponding DNA segments. Which phase is this?",
+    "answer": "Prophase I.",
+    "why": "Synapsis and crossing over characterise the first meiotic prophase.",
+    "remember": "Pair and exchange.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which event belongs to prophase I?",
+        "options": [
+          "Synapsis of homologs",
+          "Separation of sisters in meiosis II",
+          "Fusion of gametes"
+        ],
+        "correct": 0,
+        "feedback": "Synapsis and crossing over characterise the first meiotic prophase."
+      }
+    ]
+  },
+  {
+    "id": "term-metaphase-i",
+    "termId": "metaphase-i",
+    "lessonId": "lesson-09",
+    "objectiveId": "o5",
+    "title": "Metaphase I",
+    "scenario": "Homologous pairs align at the equator with independently oriented maternal and paternal homologs. Which phase?",
+    "answer": "Metaphase I.",
+    "why": "Pair orientation sets up the distribution of whole homologs.",
+    "remember": "Pairs line up.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "At metaphase I, what aligns as paired units?",
+        "options": [
+          "Only separated sister chromatids",
+          "Fused gametes",
+          "Homologous chromosomes"
+        ],
+        "correct": 2,
+        "feedback": "Pair orientation sets up the distribution of whole homologs."
+      }
+    ]
+  },
+  {
+    "id": "term-anaphase-i",
+    "termId": "anaphase-i",
+    "lessonId": "lesson-09",
+    "objectiveId": "o5",
+    "title": "Anaphase I",
+    "scenario": "One homolog moves to each pole while its sisters remain together. Which phase?",
+    "answer": "Anaphase I.",
+    "why": "Homolog separation distinguishes this from anaphase II.",
+    "remember": "Homologs apart; sisters joined.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which event is expected in anaphase I?",
+        "options": [
+          "DNA replication begins",
+          "Homologs separate",
+          "Sisters normally separate"
+        ],
+        "correct": 1,
+        "feedback": "Homolog separation distinguishes this from anaphase II."
+      }
+    ]
+  },
+  {
+    "id": "term-telophase-i",
+    "termId": "telophase-i",
+    "lessonId": "lesson-05",
+    "objectiveId": "o3",
+    "title": "Telophase I",
+    "scenario": "Homologs have reached opposite poles after the first meiotic division. What chromosome condition remains?",
+    "answer": "One set of duplicated chromosomes at each pole.",
+    "why": "Sisters have not yet separated; nuclear reformation varies by organism.",
+    "remember": "One set in each first-division product.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "At the end of normal meiosis I each daughter is\u2026",
+        "options": [
+          "Haploid with duplicated chromosomes",
+          "Diploid with unreplicated chromosomes",
+          "Haploid with no DNA"
+        ],
+        "correct": 0,
+        "feedback": "Sisters have not yet separated; nuclear reformation varies by organism."
+      }
+    ]
+  },
+  {
+    "id": "term-prophase-ii",
+    "termId": "prophase-ii",
+    "lessonId": "lesson-10",
+    "objectiveId": "o5",
+    "title": "Prophase II",
+    "scenario": "A cell starts its second division after meiosis I, with no intervening DNA replication. What phase begins?",
+    "answer": "Prophase II.",
+    "why": "The second division prepares the existing duplicated chromosomes for sister separation.",
+    "remember": "Prepare to split the sisters.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Before prophase II, another full S phase is\u2026",
+        "options": [
+          "Required",
+          "What restores diploidy",
+          "Absent in ordinary meiosis"
+        ],
+        "correct": 2,
+        "feedback": "The second division prepares the existing duplicated chromosomes for sister separation."
+      }
+    ]
+  },
+  {
+    "id": "term-metaphase-ii",
+    "termId": "metaphase-ii",
+    "lessonId": "lesson-10",
+    "objectiveId": "o5",
+    "title": "Metaphase II",
+    "scenario": "Duplicated chromosomes align individually in a haploid cell during the second division. Which phase?",
+    "answer": "Metaphase II.",
+    "why": "Unlike metaphase I, homologous pairs are not the aligning units.",
+    "remember": "Individual chromosomes line up.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Metaphase II aligns\u2026",
+        "options": [
+          "Gametes for fertilization",
+          "Individual duplicated chromosomes",
+          "Homologous pairs as tetrads"
+        ],
+        "correct": 1,
+        "feedback": "Unlike metaphase I, homologous pairs are not the aligning units."
+      }
+    ]
+  },
+  {
+    "id": "term-anaphase-ii",
+    "termId": "anaphase-ii",
+    "lessonId": "lesson-10",
+    "objectiveId": "o5",
+    "title": "Anaphase II",
+    "scenario": "Sister chromatids separate and move toward opposite poles in the second division. Which phase?",
+    "answer": "Anaphase II.",
+    "why": "Separated chromatids are now counted as daughter chromosomes.",
+    "remember": "Sisters move apart.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "What separates in anaphase II?",
+        "options": [
+          "Sister chromatids",
+          "Homologous pairs with sisters joined",
+          "Two gametes"
+        ],
+        "correct": 0,
+        "feedback": "Separated chromatids are now counted as daughter chromosomes."
+      }
+    ]
+  },
+  {
+    "id": "term-telophase-ii",
+    "termId": "telophase-ii",
+    "lessonId": "lesson-05",
+    "objectiveId": "o3",
+    "title": "Telophase II",
+    "scenario": "The second meiotic division ends in the standard four-cell diagram. What is the nuclear set number?",
+    "answer": "Haploid.",
+    "why": "Meiosis II redistributes sister copies without restoring a second set.",
+    "remember": "Four haploid products in the general model.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Must all animal meiotic products become four equal functional gametes?",
+        "options": [
+          "Yes, always",
+          "Only if chromosomes replicated twice",
+          "No; oogenesis is asymmetric"
+        ],
+        "correct": 2,
+        "feedback": "Meiosis II redistributes sister copies without restoring a second set."
+      }
+    ]
+  },
+  {
+    "id": "term-crossing-over",
+    "termId": "crossing-over",
+    "lessonId": "lesson-11",
+    "objectiveId": "o6",
+    "title": "Crossing over",
+    "scenario": "Non-sister chromatids exchange matching segments during prophase I. What changes?",
+    "answer": "Allele combinations along chromatids.",
+    "why": "Crossing over reshuffles existing variants; it does not by itself imply a new allele.",
+    "remember": "Swap matching segments.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which event is crossing over?",
+        "options": [
+          "Copying the whole genome",
+          "Exchange between non-sister homologous chromatids",
+          "Random fusion of gametes"
+        ],
+        "correct": 1,
+        "feedback": "Crossing over reshuffles existing variants; it does not by itself imply a new allele."
+      }
+    ]
+  },
+  {
+    "id": "term-synapsis",
+    "termId": "synapsis",
+    "lessonId": "lesson-11",
+    "objectiveId": "o6",
+    "title": "Synapsis",
+    "scenario": "Two replicated homologs align closely during prophase I. What is this pairing called?",
+    "answer": "Synapsis.",
+    "why": "Synapsis pairs homologs and supports recombination.",
+    "remember": "Synapsis brings homologs together.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Synapsis normally pairs\u2026",
+        "options": [
+          "Homologous chromosomes",
+          "Unrelated chromosome types",
+          "Two gametes"
+        ],
+        "correct": 0,
+        "feedback": "Synapsis pairs homologs and supports recombination."
+      }
+    ]
+  },
+  {
+    "id": "term-chiasma",
+    "termId": "chiasma",
+    "lessonId": "lesson-11",
+    "objectiveId": "o6",
+    "title": "Chiasma",
+    "scenario": "A paired homolog diagram shows a visible connection associated with a crossover. What is it?",
+    "answer": "A chiasma, distinct from the centromere.",
+    "why": "The chiasma reflects the crossover relationship between non-sister chromatids.",
+    "remember": "Chiasma = crossover connection.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which distinction is correct?",
+        "options": [
+          "A chiasma is always the chromosome centre",
+          "A centromere is an exchanged allele",
+          "A chiasma is not a centromere"
+        ],
+        "correct": 2,
+        "feedback": "The chiasma reflects the crossover relationship between non-sister chromatids."
+      }
+    ]
+  },
+  {
+    "id": "term-assortment",
+    "termId": "assortment",
+    "lessonId": "lesson-13",
+    "objectiveId": "o7",
+    "title": "Independent assortment",
+    "scenario": "Ignoring crossing over, a species has n = 3. How many whole-chromosome parental combinations are possible across gametes?",
+    "answer": "2\u00b3 = 8 combinations.",
+    "why": "Each of three pairs has two possible homolog choices; multiply 2 \u00d7 2 \u00d7 2.",
+    "remember": "Each pair makes its own orientation choice.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Ignoring crossing over, n = 4 permits how many combinations?",
+        "options": [
+          "4",
+          "16",
+          "8"
+        ],
+        "correct": 1,
+        "feedback": "Each of three pairs has two possible homolog choices; multiply 2 \u00d7 2 \u00d7 2."
+      }
+    ]
+  },
+  {
+    "id": "term-mutation",
+    "termId": "mutation",
+    "lessonId": "lesson-15",
+    "objectiveId": "o8",
+    "title": "Mutation",
+    "scenario": "A DNA base changes from A to G. Is this merely reshuffling existing alleles?",
+    "answer": "No. A sequence change is a mutation.",
+    "why": "Mutation can create a new allele; recombination rearranges existing variants.",
+    "remember": "Mutation supplies new versions.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which can create a new allele?",
+        "options": [
+          "A change in DNA sequence",
+          "Orienting intact homologs differently",
+          "Fusion of unchanged gametes"
+        ],
+        "correct": 0,
+        "feedback": "Mutation can create a new allele; recombination rearranges existing variants."
+      }
+    ]
+  },
+  {
+    "id": "term-heritable",
+    "termId": "heritable",
+    "lessonId": "lesson-15",
+    "objectiveId": "o8",
+    "title": "Heritable variation",
+    "scenario": "A DNA change occurs in a skin cell only. Must it be transmitted to offspring?",
+    "answer": "No; a somatic change is not ordinarily passed through gametes.",
+    "why": "Inheritance depends on transmission through the reproductive lineage.",
+    "remember": "Heritable means it can be inherited.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which change can be inherited in ordinary sexual reproduction?",
+        "options": [
+          "A suntan alone",
+          "A change confined to one skin cell",
+          "A variant transmitted in a gamete"
+        ],
+        "correct": 2,
+        "feedback": "Inheritance depends on transmission through the reproductive lineage."
+      }
+    ]
+  },
+  {
+    "id": "term-selection",
+    "termId": "selection",
+    "lessonId": "lesson-15",
+    "objectiveId": "o8",
+    "title": "Natural selection",
+    "scenario": "An inherited variant improves reproduction in a particular environment. What can happen over generations?",
+    "answer": "Its frequency may increase through natural selection.",
+    "why": "Selection concerns differential reproductive success, not purposeful mutation.",
+    "remember": "Selection changes which inherited variants become common.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Does selection create a needed allele on demand?",
+        "options": [
+          "Only during metaphase",
+          "No",
+          "Yes, always"
+        ],
+        "correct": 1,
+        "feedback": "Selection concerns differential reproductive success, not purposeful mutation."
+      }
+    ]
+  },
+  {
+    "id": "term-variation",
+    "termId": "variation",
+    "lessonId": "lesson-16",
+    "objectiveId": "o8",
+    "title": "Genetic variation",
+    "scenario": "Two siblings inherit different combinations of existing parental alleles. Must a new mutation explain every difference?",
+    "answer": "No; recombination and fertilization can generate different combinations.",
+    "why": "Variation includes differences produced by reshuffling existing alleles.",
+    "remember": "New versions plus new combinations.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which generates new combinations of parental variants?",
+        "options": [
+          "Meiosis and random fertilization",
+          "Only new mutation",
+          "Ordinary DNA packaging alone"
+        ],
+        "correct": 0,
+        "feedback": "Variation includes differences produced by reshuffling existing alleles."
+      }
+    ]
+  },
+  {
+    "id": "term-sexual",
+    "termId": "sexual",
+    "lessonId": "lesson-03",
+    "objectiveId": "o2",
+    "title": "Sexual reproduction",
+    "scenario": "Two gametes fuse to begin a new life cycle. What process makes this reproduction sexual?",
+    "answer": "Fusion of gametes and combination of genetic information.",
+    "why": "Sexual cycles combine fertilization with a reduction process.",
+    "remember": "Combine gamete contributions.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Sexual reproduction necessarily involves\u2026",
+        "options": [
+          "Exactly two separate individuals in every species",
+          "No meiosis anywhere in the cycle",
+          "A sexual cycle with gamete fusion"
+        ],
+        "correct": 2,
+        "feedback": "Sexual cycles combine fertilization with a reduction process."
+      }
+    ]
+  },
+  {
+    "id": "term-asexual",
+    "termId": "asexual",
+    "lessonId": "lesson-03",
+    "objectiveId": "o2",
+    "title": "Asexual reproduction",
+    "scenario": "An organism reproduces without gamete fusion. How is this mode classified?",
+    "answer": "Asexual reproduction.",
+    "why": "The defining distinction is reproduction without gamete fusion.",
+    "remember": "One parent supplies the starting information.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A new individual arises by budding without gamete fusion. This is\u2026",
+        "options": [
+          "Meiosis II",
+          "Asexual reproduction",
+          "Fertilization"
+        ],
+        "correct": 1,
+        "feedback": "The defining distinction is reproduction without gamete fusion."
+      }
+    ]
+  },
+  {
+    "id": "term-clone",
+    "termId": "clone",
+    "lessonId": "lesson-03",
+    "objectiveId": "o2",
+    "title": "Clone",
+    "scenario": "Two cells descend from one cell by mitosis. Are their genomes guaranteed to remain identical forever?",
+    "answer": "No; later mutations can introduce differences.",
+    "why": "Clonal origin describes ancestry and initial similarity, not permanent absence of change.",
+    "remember": "Usually matching copies.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A clone acquires a new mutation. Is clonal ancestry erased?",
+        "options": [
+          "No",
+          "Yes",
+          "Only in diploid cells"
+        ],
+        "correct": 0,
+        "feedback": "Clonal origin describes ancestry and initial similarity, not permanent absence of change."
+      }
+    ]
+  },
+  {
+    "id": "term-spore",
+    "termId": "spore",
+    "lessonId": "lesson-07",
+    "objectiveId": "o3",
+    "title": "Spore",
+    "scenario": "A plant sporophyte undergoes meiosis and produces haploid cells that grow without gamete fusion. What are these cells?",
+    "answer": "Spores.",
+    "why": "In alternation of generations, spores grow into gametophytes; gametes instead fuse.",
+    "remember": "A spore can grow without fertilization.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A plant spore develops into a gametophyte through\u2026",
+        "options": [
+          "Fertilization first",
+          "A second meiosis",
+          "Mitosis"
+        ],
+        "correct": 2,
+        "feedback": "In alternation of generations, spores grow into gametophytes; gametes instead fuse."
+      }
+    ]
+  },
+  {
+    "id": "term-sporophyte",
+    "termId": "sporophyte",
+    "lessonId": "lesson-07",
+    "objectiveId": "o3",
+    "title": "Sporophyte",
+    "scenario": "In a plant life cycle, the diploid multicellular generation makes haploid spores by meiosis. What is it?",
+    "answer": "The sporophyte.",
+    "why": "Its defining role is the spore-producing diploid generation.",
+    "remember": "Sporophyte makes spores.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A sporophyte produces spores through\u2026",
+        "options": [
+          "Mitosis alone in the standard sexual cycle",
+          "Meiosis",
+          "Gamete fusion"
+        ],
+        "correct": 1,
+        "feedback": "Its defining role is the spore-producing diploid generation."
+      }
+    ]
+  },
+  {
+    "id": "term-gametophyte",
+    "termId": "gametophyte",
+    "lessonId": "lesson-07",
+    "objectiveId": "o3",
+    "title": "Gametophyte",
+    "scenario": "A haploid multicellular plant generation makes gametes. Must it halve its sets again?",
+    "answer": "No; it produces gametes by mitosis.",
+    "why": "The gametophyte is already haploid.",
+    "remember": "Gametophyte makes gametes.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "The gametophyte generation is normally\u2026",
+        "options": [
+          "Haploid",
+          "Diploid",
+          "Always tetraploid"
+        ],
+        "correct": 0,
+        "feedback": "The gametophyte is already haploid."
+      }
+    ]
+  },
+  {
+    "id": "term-maternal",
+    "termId": "maternal",
+    "lessonId": "lesson-13",
+    "objectiveId": "o7",
+    "title": "Maternal",
+    "scenario": "A child inherits one chromosome 3 from the egg. What does maternal identify here?",
+    "answer": "Its origin from the mother.",
+    "why": "Parental origin does not imply a special chromosome type.",
+    "remember": "Maternal = mother\u2019s contribution.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "A maternally inherited autosome is\u2026",
+        "options": [
+          "Always X",
+          "A sister chromatid made by the father",
+          "An autosome inherited from the mother"
+        ],
+        "correct": 2,
+        "feedback": "Parental origin does not imply a special chromosome type."
+      }
+    ]
+  },
+  {
+    "id": "term-paternal",
+    "termId": "paternal",
+    "lessonId": "lesson-13",
+    "objectiveId": "o7",
+    "title": "Paternal",
+    "scenario": "A child inherits one chromosome 4 from the sperm. What does paternal describe?",
+    "answer": "Origin from the father.",
+    "why": "Paternal is a parent-of-origin label; autosomes can be paternal.",
+    "remember": "Paternal = father\u2019s contribution.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Does paternal chromosome always mean Y?",
+        "options": [
+          "Only in a diploid cell",
+          "No",
+          "Yes"
+        ],
+        "correct": 1,
+        "feedback": "Paternal is a parent-of-origin label; autosomes can be paternal."
+      }
+    ]
+  },
+  {
+    "id": "term-phenotype",
+    "termId": "phenotype",
+    "lessonId": "lesson-04",
+    "objectiveId": "o2",
+    "title": "Phenotype",
+    "scenario": "Two plants have the same genotype but differ in height under different light conditions. What differs observably?",
+    "answer": "Their phenotype.",
+    "why": "Phenotype reflects observable traits influenced by genotype and environment.",
+    "remember": "Phenotype is the trait you can observe or measure.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "An observable trait is a\u2026",
+        "options": [
+          "Phenotype",
+          "Locus",
+          "Centromere"
+        ],
+        "correct": 0,
+        "feedback": "Phenotype reflects observable traits influenced by genotype and environment."
+      }
+    ]
+  },
+  {
+    "id": "term-centriole",
+    "termId": "centriole",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Centriole",
+    "scenario": "An animal cell diagram shows short cylinders near spindle poles. Are these chromosomes?",
+    "answer": "No; these are centrioles associated with centrosomes.",
+    "why": "Centrioles are cellular structures, not DNA chromosomes; many plants form spindles without them.",
+    "remember": "Centriole is not a gene address.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Are centrioles universal requirements in all dividing eukaryotic cells?",
+        "options": [
+          "Yes",
+          "Only if DNA exists",
+          "No"
+        ],
+        "correct": 2,
+        "feedback": "Centrioles are cellular structures, not DNA chromosomes; many plants form spindles without them."
+      }
+    ]
+  },
+  {
+    "id": "term-nucleolus",
+    "termId": "nucleolus",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Nucleolus",
+    "scenario": "A dense nuclear region is involved in ribosomal RNA production and ribosomal subunit assembly. What is it?",
+    "answer": "The nucleolus.",
+    "why": "It supports ribosome production; it is not the entire nucleus.",
+    "remember": "Nucleolus helps assemble ribosomes.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which structure assembles ribosomal subunits in the nucleus?",
+        "options": [
+          "Chiasma",
+          "Nucleolus",
+          "Centromere"
+        ],
+        "correct": 1,
+        "feedback": "It supports ribosome production; it is not the entire nucleus."
+      }
+    ]
+  },
+  {
+    "id": "term-ribosome",
+    "termId": "ribosome",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Ribosome",
+    "scenario": "An mRNA sequence is translated into a protein. Which structure performs translation?",
+    "answer": "A ribosome.",
+    "why": "Ribosomes read mRNA and build polypeptides.",
+    "remember": "Ribosome = protein-making machinery.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which process occurs at a ribosome?",
+        "options": [
+          "Translation",
+          "Homolog separation",
+          "Synapsis"
+        ],
+        "correct": 0,
+        "feedback": "Ribosomes read mRNA and build polypeptides."
+      }
+    ]
+  },
+  {
+    "id": "term-tetraploid",
+    "termId": "tetraploid",
+    "lessonId": "lesson-05",
+    "objectiveId": "o3",
+    "title": "Tetraploid",
+    "scenario": "A cell has four full chromosome sets, each with 3 chromosome types. What is its count?",
+    "answer": "12 chromosomes, arranged in four complete sets.",
+    "why": "Tetraploid means four complete sets, not simply doubled DNA after S phase.",
+    "remember": "Tetra = four sets.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which cell is tetraploid?",
+        "options": [
+          "Two sets with duplicated chromosomes",
+          "One set with four chromatids",
+          "Four full chromosome sets"
+        ],
+        "correct": 2,
+        "feedback": "Tetraploid means four complete sets, not simply doubled DNA after S phase."
+      }
+    ]
+  },
+  {
+    "id": "term-nucleus",
+    "termId": "nucleus",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Nucleus",
+    "scenario": "A eukaryotic cell keeps most of its genomic DNA in a membrane-bounded compartment. What is it?",
+    "answer": "The nucleus.",
+    "why": "The nucleus houses most genomic DNA; mitochondria and chloroplasts can also contain DNA.",
+    "remember": "The nucleus contains the chromosome packages.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Is all eukaryotic DNA necessarily inside the nucleus?",
+        "options": [
+          "Only after fertilization",
+          "No",
+          "Yes"
+        ],
+        "correct": 1,
+        "feedback": "The nucleus houses most genomic DNA; mitochondria and chloroplasts can also contain DNA."
+      }
+    ]
+  },
+  {
+    "id": "term-spindle",
+    "termId": "spindle",
+    "lessonId": "lesson-10",
+    "objectiveId": "o5",
+    "title": "Spindle",
+    "scenario": "Duplicated chromosomes are pulled toward poles during division. What apparatus supports their movement?",
+    "answer": "The microtubule spindle.",
+    "why": "Spindle microtubules interact with kinetochores and help segregate chromosomes.",
+    "remember": "Spindle helps separate the chromosomes.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "The spindle is mainly made of\u2026",
+        "options": [
+          "Microtubules",
+          "DNA bases",
+          "Alleles"
+        ],
+        "correct": 0,
+        "feedback": "Spindle microtubules interact with kinetochores and help segregate chromosomes."
+      }
+    ]
+  },
+  {
+    "id": "term-centromere",
+    "termId": "centromere",
+    "lessonId": "lesson-04",
+    "objectiveId": "o2",
+    "title": "Centromere",
+    "scenario": "Two sister chromatids remain joined at a specialised chromosomal region. Which region supports kinetochore assembly?",
+    "answer": "The centromere.",
+    "why": "The centromere is a chromosome region; the kinetochore is the protein complex assembled there.",
+    "remember": "Centromere and chiasma mean different connections.",
+    "kind": "Concept application",
+    "source": "Hypothetical teaching scenario; glossary background and original source context.",
+    "questions": [
+      {
+        "prompt": "Which statement is accurate?",
+        "options": [
+          "Centromeres are crossover points by definition",
+          "Every centromere lies exactly at the geometric middle",
+          "Kinetochores assemble at centromeres"
+        ],
+        "correct": 2,
+        "feedback": "The centromere is a chromosome region; the kinetochore is the protein complex assembled there."
+      }
+    ]
+  },
+  {
+    "id": "case-01",
+    "lessonId": "lesson-01",
+    "objectiveId": "o1",
+    "title": "Meiosis and fertilization together maintain chromosome-set balance",
+    "scenario": "A species has 2n = 10. Trace reduction and restoration.",
+    "answer": "Meiosis: n = 5. Fertilization: 5 + 5 = 10.",
+    "why": "Halving and restoring sets stabilises the chromosome complement.",
+    "remember": "Meiosis and fertilization together maintain chromosome-set balance.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "If normal gametes had 8 chromosomes each, the zygote would have\u2026",
+        "options": [
+          "4 chromosomes",
+          "16 chromosomes",
+          "8 chromosomes"
+        ],
+        "correct": 1,
+        "feedback": "Halving and restoring sets stabilises the chromosome complement."
+      }
+    ]
+  },
+  {
+    "id": "case-02",
+    "lessonId": "lesson-01",
+    "objectiveId": "o1",
+    "title": "Meiosis and fertilization together maintain chromosome-set balance",
+    "scenario": "A student claims variation requires chromosome number to change. Is this valid?",
+    "answer": "No; allele combinations can vary with stable chromosome number.",
+    "why": "Genetic composition and chromosome count measure different features.",
+    "remember": "Meiosis and fertilization together maintain chromosome-set balance.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which can vary while chromosome count stays fixed?",
+        "options": [
+          "Allele combinations",
+          "Only the number of sets",
+          "Nothing genetic"
+        ],
+        "correct": 0,
+        "feedback": "Genetic composition and chromosome count measure different features."
+      }
+    ]
+  },
+  {
+    "id": "case-03",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Chromosomes carry genes at defined positions called loci",
+    "scenario": "At the same position on two homologs, one carries A and the other a. Identify gene, locus and allele.",
+    "answer": "The gene occupies the same locus; A and a are alleles.",
+    "why": "Position, functional region and sequence version are different ideas.",
+    "remember": "Chromosomes carry genes at defined positions called loci.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "A gene moves to another chromosomal position. Which property changes?",
+        "options": [
+          "Necessarily its allele sequence",
+          "Necessarily the ploidy",
+          "Its locus"
+        ],
+        "correct": 2,
+        "feedback": "Position, functional region and sequence version are different ideas."
+      }
+    ]
+  },
+  {
+    "id": "case-04",
+    "lessonId": "lesson-02",
+    "objectiveId": "o1",
+    "title": "Chromosomes carry genes at defined positions called loci",
+    "scenario": "A replicated chromosome has two joined chromatids. Are these two different gene loci?",
+    "answer": "No; replication copies the existing loci.",
+    "why": "Copies of positions are distinguished from different positions.",
+    "remember": "Chromosomes carry genes at defined positions called loci.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "What does DNA replication copy?",
+        "options": [
+          "Only the maternal set",
+          "DNA including its loci",
+          "Only chromosome names"
+        ],
+        "correct": 1,
+        "feedback": "Copies of positions are distinguished from different positions."
+      }
+    ]
+  },
+  {
+    "id": "case-05",
+    "lessonId": "lesson-03",
+    "objectiveId": "o2",
+    "title": "Sexual reproduction recombines genetic information from gametes",
+    "scenario": "Two parents contribute gametes with different allele combinations. Explain the offspring combination.",
+    "answer": "Fertilization brings the two gametic complements together.",
+    "why": "A sexual offspring receives contributions through gametes.",
+    "remember": "Sexual reproduction recombines genetic information from gametes.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which event combines gametic genetic information?",
+        "options": [
+          "Fertilization",
+          "DNA replication",
+          "Synapsis"
+        ],
+        "correct": 0,
+        "feedback": "A sexual offspring receives contributions through gametes."
+      }
+    ]
+  },
+  {
+    "id": "case-06",
+    "lessonId": "lesson-03",
+    "objectiveId": "o2",
+    "title": "Sexual reproduction recombines genetic information from gametes",
+    "scenario": "A single organism self-fertilizes. Is reproduction automatically asexual?",
+    "answer": "No; fusion of gametes is a sexual process.",
+    "why": "Sexual reproduction need not involve two separate individuals.",
+    "remember": "Sexual reproduction recombines genetic information from gametes.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which is sufficient to reject the claim that reproduction is asexual?",
+        "options": [
+          "Only one parent organism exists",
+          "The offspring has DNA",
+          "Gametes fuse in the sexual cycle"
+        ],
+        "correct": 2,
+        "feedback": "Sexual reproduction need not involve two separate individuals."
+      }
+    ]
+  },
+  {
+    "id": "case-07",
+    "lessonId": "lesson-04",
+    "objectiveId": "o2",
+    "title": "Homologs are parental counterparts; sisters are replication copies",
+    "scenario": "A maternal homolog replicates. What relationship links its two copies?",
+    "answer": "They are sister chromatids.",
+    "why": "Replication copies one chromosome; homologs originate from parental counterparts.",
+    "remember": "Homologs are parental counterparts. Sisters are copies.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Maternal and paternal chromosome 6 are\u2026",
+        "options": [
+          "Two copies of the same parental chromosome",
+          "Homologs",
+          "Sisters produced by one replication"
+        ],
+        "correct": 1,
+        "feedback": "Replication copies one chromosome; homologs originate from parental counterparts."
+      }
+    ]
+  },
+  {
+    "id": "case-08",
+    "lessonId": "lesson-04",
+    "objectiveId": "o2",
+    "title": "Homologs are parental counterparts; sisters are replication copies",
+    "scenario": "After crossing over, must sister chromatids remain identical at every locus?",
+    "answer": "No; one sister may carry an exchanged segment.",
+    "why": "Recombination can make sisters differ along exchanged regions.",
+    "remember": "Homologs are parental counterparts. Sisters are copies.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Why can sisters differ after prophase I?",
+        "options": [
+          "Non-sister chromatids exchanged DNA",
+          "Fertilization occurred inside the cell",
+          "The cell became tetraploid"
+        ],
+        "correct": 0,
+        "feedback": "Recombination can make sisters differ along exchanged regions."
+      }
+    ]
+  },
+  {
+    "id": "case-09",
+    "lessonId": "lesson-05",
+    "objectiveId": "o3",
+    "title": "Diploid and haploid describe chromosome sets, not DNA quantity",
+    "scenario": "A 2n = 6 cell completes S phase. Count chromosomes and chromatids.",
+    "answer": "6 chromosomes and 12 chromatids.",
+    "why": "Replication doubles chromatids without adding homologous sets.",
+    "remember": "Diploid and haploid describe chromosome sets, not DNA quantity.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "After S phase, a 2n = 12 cell contains\u2026",
+        "options": [
+          "24 chromosomes and 24 chromatids",
+          "6 chromosomes and 12 chromatids",
+          "12 chromosomes and 24 chromatids"
+        ],
+        "correct": 2,
+        "feedback": "Replication doubles chromatids without adding homologous sets."
+      }
+    ]
+  },
+  {
+    "id": "case-10",
+    "lessonId": "lesson-05",
+    "objectiveId": "o3",
+    "title": "Diploid and haploid describe chromosome sets, not DNA quantity",
+    "scenario": "A cell has one set of 6 chromosomes, each with sisters. Is it diploid?",
+    "answer": "No; it is haploid with 12 chromatids.",
+    "why": "Duplicated chromosomes do not constitute two homologous sets.",
+    "remember": "Diploid and haploid describe chromosome sets, not DNA quantity.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Ploidy depends on\u2026",
+        "options": [
+          "Chromatid number alone",
+          "Complete chromosome sets",
+          "DNA mass alone"
+        ],
+        "correct": 1,
+        "feedback": "Duplicated chromosomes do not constitute two homologous sets."
+      }
+    ]
+  },
+  {
+    "id": "case-11",
+    "lessonId": "lesson-06",
+    "objectiveId": "o3",
+    "title": "Meiosis reduces sets, fertilization restores them, and mitosis supports growth",
+    "scenario": "Two n = 7 animal gametes fuse, then the zygote divides by mitosis. Follow the counts.",
+    "answer": "Zygote: 14; each ordinary mitotic daughter nucleus: 14.",
+    "why": "Fertilization restores sets; mitosis preserves them.",
+    "remember": "Meiosis reduces sets, fertilization restores them, and mitosis supports growth.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "An n = 5 gamete fuses with another n = 5 gamete. A normal mitotic daughter nucleus has\u2026",
+        "options": [
+          "10 chromosomes",
+          "5 chromosomes",
+          "20 chromosomes"
+        ],
+        "correct": 0,
+        "feedback": "Fertilization restores sets; mitosis preserves them."
+      }
+    ]
+  },
+  {
+    "id": "case-12",
+    "lessonId": "lesson-06",
+    "objectiveId": "o3",
+    "title": "Meiosis reduces sets, fertilization restores them, and mitosis supports growth",
+    "scenario": "A student says mitosis always makes diploid cells. Test this with a haploid starting cell.",
+    "answer": "Haploid mitosis normally produces haploid daughters.",
+    "why": "Mitosis preserves the starting set number.",
+    "remember": "Meiosis reduces sets, fertilization restores them, and mitosis supports growth.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Ordinary mitosis of an n = 9 cell produces nuclei with\u2026",
+        "options": [
+          "18 chromosomes",
+          "4.5 chromosomes",
+          "9 chromosomes"
+        ],
+        "correct": 2,
+        "feedback": "Mitosis preserves the starting set number."
+      }
+    ]
+  },
+  {
+    "id": "case-13",
+    "lessonId": "lesson-07",
+    "objectiveId": "o3",
+    "title": "The growing stage differs across sexual life-cycle patterns",
+    "scenario": "In a plant sexual cycle, a diploid sporophyte makes haploid spores. What grows from a spore?",
+    "answer": "A haploid gametophyte, through mitosis.",
+    "why": "Growth can occur in a haploid multicellular generation.",
+    "remember": "The growing stage differs across sexual life-cycle patterns.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "The plant gametophyte makes gametes by\u2026",
+        "options": [
+          "Fertilization",
+          "Mitosis",
+          "A second reduction division"
+        ],
+        "correct": 1,
+        "feedback": "Growth can occur in a haploid multicellular generation."
+      }
+    ]
+  },
+  {
+    "id": "case-14",
+    "lessonId": "lesson-07",
+    "objectiveId": "o3",
+    "title": "The growing stage differs across sexual life-cycle patterns",
+    "scenario": "In a haploid-dominant cycle, the zygote undergoes meiosis. Is the multicellular stage necessarily diploid?",
+    "answer": "No; the multicellular stage can be haploid.",
+    "why": "Sexual cycles differ in which stage undergoes mitotic growth.",
+    "remember": "The growing stage differs across sexual life-cycle patterns.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which distinguishes life-cycle patterns?",
+        "options": [
+          "The stages that grow by mitosis",
+          "Whether DNA exists",
+          "Whether every species has the same adult ploidy"
+        ],
+        "correct": 0,
+        "feedback": "Sexual cycles differ in which stage undergoes mitotic growth."
+      }
+    ]
+  },
+  {
+    "id": "case-15",
+    "lessonId": "lesson-08",
+    "objectiveId": "o4",
+    "title": "One replication supports two successive meiotic divisions",
+    "scenario": "A 2n = 8 cell replicates once and divides twice. Give the normal chromosome count per final product.",
+    "answer": "n = 4 chromosomes per product.",
+    "why": "Meiosis I separates homologs; meiosis II separates sisters.",
+    "remember": "Copy once. Homologs first. Sisters second.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "How many ordinary DNA replication rounds precede these two divisions?",
+        "options": [
+          "Two",
+          "Zero",
+          "One"
+        ],
+        "correct": 2,
+        "feedback": "Meiosis I separates homologs; meiosis II separates sisters."
+      }
+    ]
+  },
+  {
+    "id": "case-16",
+    "lessonId": "lesson-08",
+    "objectiveId": "o4",
+    "title": "One replication supports two successive meiotic divisions",
+    "scenario": "A student inserts another S phase between meiosis I and II. Correct the sequence.",
+    "answer": "No full S phase intervenes in ordinary meiosis.",
+    "why": "The second division separates chromatids already made before meiosis I.",
+    "remember": "Copy once. Homologs first. Sisters second.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Meiosis II acts on chromosomes copied\u2026",
+        "options": [
+          "Only after fertilization",
+          "Before meiosis I",
+          "During a mandatory second S phase"
+        ],
+        "correct": 1,
+        "feedback": "The second division separates chromatids already made before meiosis I."
+      }
+    ]
+  },
+  {
+    "id": "case-17",
+    "lessonId": "lesson-09",
+    "objectiveId": "o5",
+    "title": "Meiosis I separates homologs while sisters remain joined",
+    "scenario": "A 2n = 10 cell ends meiosis I. Count chromosomes and chromatids in each daughter.",
+    "answer": "5 chromosomes and 10 chromatids.",
+    "why": "Homologs separate while each chromosome retains two sisters.",
+    "remember": "Meiosis I separates homologs while sisters remain joined.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "After meiosis I of 2n = 8, each daughter has\u2026",
+        "options": [
+          "4 chromosomes and 8 chromatids",
+          "8 chromosomes and 8 chromatids",
+          "4 chromosomes and 4 chromatids"
+        ],
+        "correct": 0,
+        "feedback": "Homologs separate while each chromosome retains two sisters."
+      }
+    ]
+  },
+  {
+    "id": "case-18",
+    "lessonId": "lesson-09",
+    "objectiveId": "o5",
+    "title": "Meiosis I separates homologs while sisters remain joined",
+    "scenario": "A figure shows intact duplicated homologs moving to opposite poles. Identify the event.",
+    "answer": "Homolog segregation in anaphase I.",
+    "why": "Sisters remain joined in the first division.",
+    "remember": "Meiosis I separates homologs while sisters remain joined.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which observation points to anaphase II instead?",
+        "options": [
+          "Homologs pair by synapsis",
+          "Pairs align at metaphase I",
+          "Sister chromatids separate"
+        ],
+        "correct": 2,
+        "feedback": "Sisters remain joined in the first division."
+      }
+    ]
+  },
+  {
+    "id": "case-19",
+    "lessonId": "lesson-10",
+    "objectiveId": "o5",
+    "title": "The second division separates sisters without another DNA replication",
+    "scenario": "A haploid cell entering meiosis II has 3 duplicated chromosomes. What does each final nucleus receive?",
+    "answer": "3 chromosomes, each with one chromatid.",
+    "why": "Sister separation changes DNA quantity per daughter, not set number.",
+    "remember": "The second division separates sisters without another DNA replication.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "An n = 7 cell completes meiosis II. Each product has\u2026",
+        "options": [
+          "3.5 chromosomes",
+          "7 chromosomes",
+          "14 chromosomes"
+        ],
+        "correct": 1,
+        "feedback": "Sister separation changes DNA quantity per daughter, not set number."
+      }
+    ]
+  },
+  {
+    "id": "case-20",
+    "lessonId": "lesson-10",
+    "objectiveId": "o5",
+    "title": "The second division separates sisters without another DNA replication",
+    "scenario": "During anaphase II, sister chromatids separate. Does the whole dividing cell briefly contain twice as many counted chromosomes?",
+    "answer": "Yes, when separated sisters become daughter chromosomes; each final nucleus still receives n.",
+    "why": "Always specify the cell boundary and stage when counting.",
+    "remember": "The second division separates sisters without another DNA replication.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "After cytokinesis, each ordinary meiotic product has\u2026",
+        "options": [
+          "One set",
+          "Two complete homologous sets",
+          "No centromeres"
+        ],
+        "correct": 0,
+        "feedback": "Always specify the cell boundary and stage when counting."
+      }
+    ]
+  },
+  {
+    "id": "case-21",
+    "lessonId": "lesson-11",
+    "objectiveId": "o6",
+    "title": "Crossing over rearranges alleles within chromosomes",
+    "scenario": "Homolog chromatids carry AB and ab. A crossover between the loci creates which recombinant arrangements?",
+    "answer": "Ab and aB on the participating chromatids.",
+    "why": "Exchange between the loci joins existing allele versions in new combinations.",
+    "remember": "Crossing over rearranges alleles within chromosomes.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Does this crossover necessarily create a new allele version?",
+        "options": [
+          "Yes",
+          "Only if the cell is haploid",
+          "No"
+        ],
+        "correct": 2,
+        "feedback": "Exchange between the loci joins existing allele versions in new combinations."
+      }
+    ]
+  },
+  {
+    "id": "case-22",
+    "lessonId": "lesson-11",
+    "objectiveId": "o6",
+    "title": "Crossing over rearranges alleles within chromosomes",
+    "scenario": "A student calls the centromere a chiasma. Correct the diagram interpretation.",
+    "answer": "A centromere and a chiasma are different features.",
+    "why": "A chiasma reflects crossover connections; the centromere supports kinetochore assembly.",
+    "remember": "Crossing over rearranges alleles within chromosomes.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which evidence most directly indicates exchanged segments?",
+        "options": [
+          "A nucleolus label",
+          "Changed parental colour segments on chromatids",
+          "A centromere circle alone"
+        ],
+        "correct": 1,
+        "feedback": "A chiasma reflects crossover connections; the centromere supports kinetochore assembly."
+      }
+    ]
+  },
+  {
+    "id": "case-23",
+    "lessonId": "lesson-12",
+    "objectiveId": "o6",
+    "title": "Mitosis preserves set number, while meiosis reduces it",
+    "scenario": "Compare normal mitosis and meiosis from a 2n = 6 starting cell.",
+    "answer": "Mitosis: daughters with 6; meiosis: products with 3.",
+    "why": "The reduction step occurs in meiosis I, not ordinary mitosis.",
+    "remember": "Mitosis preserves set number, while meiosis reduces it.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which process normally includes homolog pairing and reduction?",
+        "options": [
+          "Meiosis",
+          "Mitosis",
+          "Translation"
+        ],
+        "correct": 0,
+        "feedback": "The reduction step occurs in meiosis I, not ordinary mitosis."
+      }
+    ]
+  },
+  {
+    "id": "case-24",
+    "lessonId": "lesson-12",
+    "objectiveId": "o6",
+    "title": "Mitosis preserves set number, while meiosis reduces it",
+    "scenario": "A haploid organism grows by mitosis. Does that contradict chromosome-set preservation?",
+    "answer": "No; haploid daughters preserve its haploid set number.",
+    "why": "Preservation refers to starting ploidy, not a fixed diploid target.",
+    "remember": "Mitosis preserves set number, while meiosis reduces it.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which comparison is valid?",
+        "options": [
+          "Mitosis always restores diploidy",
+          "Meiosis always follows fertilization immediately",
+          "Mitosis can occur in haploid cells"
+        ],
+        "correct": 2,
+        "feedback": "Preservation refers to starting ploidy, not a fixed diploid target."
+      }
+    ]
+  },
+  {
+    "id": "case-25",
+    "lessonId": "lesson-13",
+    "objectiveId": "o7",
+    "title": "Independent assortment generates many combinations of whole chromosomes",
+    "scenario": "For n = 5, calculate whole-chromosome assortment combinations, ignoring crossing over.",
+    "answer": "2\u2075 = 32 possible parental combinations across gametes.",
+    "why": "Two choices at each of five independently oriented pairs are multiplied.",
+    "remember": "Independent assortment generates many combinations of whole chromosomes.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "For n = 6, the corresponding number is\u2026",
+        "options": [
+          "36",
+          "64",
+          "12"
+        ],
+        "correct": 1,
+        "feedback": "Two choices at each of five independently oriented pairs are multiplied."
+      }
+    ]
+  },
+  {
+    "id": "case-26",
+    "lessonId": "lesson-13",
+    "objectiveId": "o7",
+    "title": "Independent assortment generates many combinations of whole chromosomes",
+    "scenario": "For n = 3, eight assortment combinations are possible. Must one meiosis produce eight gametes?",
+    "answer": "No; 2\u207f counts possibilities across events, not products of one division.",
+    "why": "The standard symmetric model yields four cells per meiosis.",
+    "remember": "Independent assortment generates many combinations of whole chromosomes.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "What does 2\u207f count in this context?",
+        "options": [
+          "Possible whole-chromosome combinations across gametes",
+          "The number of cells from one meiosis",
+          "The number of chromatids per chromosome"
+        ],
+        "correct": 0,
+        "feedback": "The standard symmetric model yields four cells per meiosis."
+      }
+    ]
+  },
+  {
+    "id": "case-27",
+    "lessonId": "lesson-14",
+    "objectiveId": "o7",
+    "title": "Random fertilization multiplies the assortment possibilities of two gametes",
+    "scenario": "Each parent can produce 8 assortment-only gamete combinations. How many pairings are possible?",
+    "answer": "8 \u00d7 8 = 64 pairings.",
+    "why": "Random fertilization combines the possibilities from both gamete pools.",
+    "remember": "Random fertilization multiplies the assortment possibilities of two gametes.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "If each parent has 16 possible gamete combinations, pairings total\u2026",
+        "options": [
+          "32",
+          "16",
+          "256"
+        ],
+        "correct": 2,
+        "feedback": "Random fertilization combines the possibilities from both gamete pools."
+      }
+    ]
+  },
+  {
+    "id": "case-28",
+    "lessonId": "lesson-14",
+    "objectiveId": "o7",
+    "title": "Random fertilization multiplies the assortment possibilities of two gametes",
+    "scenario": "One parent has 4 possible gamete combinations and the other 8, ignoring recombination. Count possible pairings.",
+    "answer": "4 \u00d7 8 = 32 pairings.",
+    "why": "Multiply the two pools; do not assume they always have the same size.",
+    "remember": "Random fertilization multiplies the assortment possibilities of two gametes.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Does 32 pairings guarantee 32 distinct phenotypes?",
+        "options": [
+          "Only in plants",
+          "No",
+          "Yes"
+        ],
+        "correct": 1,
+        "feedback": "Multiply the two pools; do not assume they always have the same size."
+      }
+    ]
+  },
+  {
+    "id": "case-29",
+    "lessonId": "lesson-15",
+    "objectiveId": "o8",
+    "title": "New alleles and new combinations play different roles in variation",
+    "scenario": "A base substitution creates a new sequence version; a crossover shuffles existing versions. Compare their roles.",
+    "answer": "Mutation can create an allele; crossing over creates new combinations.",
+    "why": "Sequence change and allele reassortment are distinct sources of variation.",
+    "remember": "New alleles and new combinations play different roles in variation.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which directly supports a claim of a new allele?",
+        "options": [
+          "A new sequence variant",
+          "Only a new combination of unchanged alleles",
+          "Only a new orientation at metaphase I"
+        ],
+        "correct": 0,
+        "feedback": "Sequence change and allele reassortment are distinct sources of variation."
+      }
+    ]
+  },
+  {
+    "id": "case-30",
+    "lessonId": "lesson-15",
+    "objectiveId": "o8",
+    "title": "New alleles and new combinations play different roles in variation",
+    "scenario": "A beneficial heritable variant becomes more frequent. Did meiosis intentionally generate it because it was needed?",
+    "answer": "No; selection changes frequencies through reproductive differences.",
+    "why": "Meiosis and mutation do not anticipate adaptive needs.",
+    "remember": "New alleles and new combinations play different roles in variation.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Which is a sound interpretation?",
+        "options": [
+          "Selection plans the next crossover",
+          "Every mutation improves fitness",
+          "Selection can favour inherited variants"
+        ],
+        "correct": 2,
+        "feedback": "Meiosis and mutation do not anticipate adaptive needs."
+      }
+    ]
+  },
+  {
+    "id": "case-31",
+    "lessonId": "lesson-16",
+    "objectiveId": "o8",
+    "title": "Stable chromosome number and genetic variety can occur together",
+    "scenario": "Two siblings have the same chromosome count but different inherited allele combinations. Explain the coexistence.",
+    "answer": "Meiosis and fertilization preserve normal set number while reshuffling variants.",
+    "why": "Counting chromosomes does not determine their allele composition.",
+    "remember": "Stable chromosome number and genetic variety can occur together.",
+    "kind": "Application",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "Same chromosome count implies\u2026",
+        "options": [
+          "No genetic variation",
+          "Neither identical genotype nor identical phenotype",
+          "Identical DNA sequences"
+        ],
+        "correct": 1,
+        "feedback": "Counting chromosomes does not determine their allele composition."
+      }
+    ]
+  },
+  {
+    "id": "case-32",
+    "lessonId": "lesson-16",
+    "objectiveId": "o8",
+    "title": "Stable chromosome number and genetic variety can occur together",
+    "scenario": "A source diagram uses coloured rods and shows four final cells. What conclusion exceeds that evidence?",
+    "answer": "That every species produces four equal functional gametes or that colour measures DNA amount.",
+    "why": "Teaching symbols illustrate relationships; biological qualifications still apply.",
+    "remember": "Stable chromosome number and genetic variety can occur together.",
+    "kind": "Spot a mistaken inference",
+    "source": "Hypothetical teaching scenario; see original lesson slide and OpenStax Biology 2e, chapter 11.",
+    "questions": [
+      {
+        "prompt": "What is a defensible diagram interpretation?",
+        "options": [
+          "Follow which units separate and check the caption",
+          "Treat every colour as a measured DNA quantity",
+          "Ignore organism-specific differences"
+        ],
+        "correct": 0,
+        "feedback": "Teaching symbols illustrate relationships; biological qualifications still apply."
+      }
+    ]
+  }
+]

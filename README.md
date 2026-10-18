@@ -1,3 +1,5 @@
+> Current update: version 2.0. See UPDATE_2_0.md and START_HERE.md for the latest behaviour, tests and deployment steps. Earlier notes below are historical.
+
 > **Complete consolidated update:** Start with START_HERE.md. Audit results are in AUDIT_REPORT.md.
 
 # Meiosis Learning Hub
